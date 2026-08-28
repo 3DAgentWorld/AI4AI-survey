@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Survey on AI for AI · 3DAgentWorld</title>
+<meta name="description" content="A Survey on AI for AI (AI4AI): algorithms, systems, and evaluation protocols in which one AI component materially improves another AI artifact across the model lifecycle.">
+<meta property="og:title" content="A Survey on AI for AI">
+<meta property="og:description" content="When the Improver Becomes the Improvee. A survey of AI4AI: history, taxonomy, mechanisms, and a roadmap toward measurable self-improvement.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://3dagentworld.github.io/AI4AI-survey/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%234c63e8'/%3E%3Cstop offset='1' stop-color='%233ba7a0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='27' font-style='italic' fill='white' text-anchor='middle'%3Eai%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+<script>(function(){try{var t=localStorage.getItem('ai4ai-theme');if(t==='dark'||t==='light'){document.documentElement.setAttribute('data-theme',t);}else if(window.matchMedia('(prefers-color-scheme: dark)').matches){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}})();</script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <a class="brand" href="index.html"><span class="brand-mark">ai</span>AI4AI Survey</a>
+  <div class="nav-links">
+    <a href="index.html" class="active">Overview</a>
+    <a href="paper.html">Read the Paper</a>
+    <a href="https://github.com/3DAgentWorld/AI4AI-survey" rel="noopener">GitHub</a>
+    <button class="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle theme">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    </button>
+  </div>
+</nav>
+
+<header class="hero">
+  <canvas id="constellation" aria-hidden="true"></canvas>
+
+  <svg class="loop-motif" viewBox="0 0 400 400" aria-hidden="true">
+    <defs>
+      <marker id="loop-ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#8b9dff"/>
+      </marker>
+      <marker id="loop-ah2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#7fd0c8"/>
+      </marker>
+    </defs>
+    <g class="ring">
+      <circle cx="200" cy="200" r="168" fill="none" stroke="rgba(159,176,232,0.18)" stroke-width="1" stroke-dasharray="3 7"/>
+      <path d="M 200 32 A 168 168 0 0 1 368 200" fill="none" stroke="rgba(139,157,255,0.85)" stroke-width="2" marker-end="url(#loop-ah)"/>
+      <path d="M 200 368 A 168 168 0 0 1 32 200" fill="none" stroke="rgba(139,157,255,0.85)" stroke-width="2" marker-end="url(#loop-ah)"/>
+    </g>
+    <g class="ring-rev">
+      <circle cx="200" cy="200" r="112" fill="none" stroke="rgba(127,208,200,0.16)" stroke-width="1" stroke-dasharray="3 7"/>
+      <path d="M 200 88 A 112 112 0 0 0 88 200" fill="none" stroke="rgba(127,208,200,0.8)" stroke-width="2" marker-end="url(#loop-ah2)"/>
+      <path d="M 200 312 A 112 112 0 0 0 312 200" fill="none" stroke="rgba(127,208,200,0.8)" stroke-width="2" marker-end="url(#loop-ah2)"/>
+    </g>
+    <text x="200" y="188" text-anchor="middle" class="loop-label">improver</text>
+    <text x="200" y="210" text-anchor="middle" class="loop-label" style="fill:#7fd0c8">improvee</text>
+  </svg>
+
+  <div class="hero-inner">
+    <p class="kicker">A Survey &middot; 3DAgentWorld</p>
+    <h1>A Survey on <span class="grad">AI for AI</span></h1>
+    <p class="subtitle">When the Improver Becomes the Improvee</p>
+    <p class="byline"><strong>Deheng Ye</strong> &middot; ydyl1991@gmail.com</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="paper.html">Read the Survey &rarr;</a>
+      <a class="btn btn-ghost" href="https://github.com/3DAgentWorld/AI4AI-survey" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+        Source Repository
+      </a>
+    </div>
+    <div class="hero-stats">
+      <span class="chip">9 sections</span>
+      <span class="chip">4 figures &middot; 1 table</span>
+      <span class="chip">HTML edition</span>
+      <span class="chip">Open access</span>
+    </div>
+  </div>
+</header>
+
+<section class="landing-section reveal">
+  <div class="sec-rule"></div>
+  <h2 class="sec-title">Abstract</h2>
+  <p class="sec-lede">The survey in one paragraph pair. Read the <a href="paper.html#abstract">full text</a> for the complete version.</p>
+  <div class="abstract-card">
+    <span class="abs-label">Abstract</span>
+    <p>As machine learning systems grow more complex, an increasing share of the work of designing, training, evaluating, and maintaining them is itself being carried out by learning algorithms and generative agents. We survey this practice under the name <em>AI for AI</em> (<em>AI4AI</em>): the study of algorithms, systems, and evaluation protocols in which one AI component&mdash;a searcher, meta-learner, generative model, multi-agent population, or automated evaluator&mdash;materially improves another AI artifact or process across the model lifecycle. The framing is broader than classical AutoML, which historically emphasized pipeline configuration and architecture search, and narrower than &ldquo;AI for X&rdquo;, where the object of improvement lies outside AI systems.</p>
+    <p>AI4AI is not only a byproduct of large language models. We reconstruct a cumulative lineage in which early agents and reinforcement learning made improvement endogenous, AutoML and meta-learning made outer loops explicit, self-play supplied endogenous curricula, and language-model agents widened the action space to code, tools, and repositories. Building on this lineage, we propose a four-axis taxonomy organized by lifecycle stage, target of improvement, degree of automation, and method family, and close with open challenges&mdash;evaluator circularity, cost asymmetry, reproducibility, and safety under recursion&mdash;together with a staged roadmap toward measurement-first benchmarks, hybrid oversight, and auditable closed loops.</p>
+    <a class="abstract-more" href="paper.html#abstract">Continue reading &rarr;</a>
+  </div>
+</section>
+
+<section class="landing-section reveal">
+  <div class="sec-rule"></div>
+  <h2 class="sec-title">Contributions</h2>
+  <p class="sec-lede">Four moves that turn a scattered literature into one measurable family.</p>
+  <div class="card-grid">
+    <div class="card reveal">
+      <span class="card-num">01 &middot; History</span>
+      <h3>A convergence, not a break</h3>
+      <p>Reconstructs AI4AI as a cumulative lineage: agents and RL, AutoML and meta-learning, self-play, then LLM agents. Recursive self-improvement is the high-automation end of the same spectrum.</p>
+    </div>
+    <div class="card reveal">
+      <span class="card-num">02 &middot; Taxonomy</span>
+      <h3>Four shared coordinates</h3>
+      <p>A coordinate system for comparison: lifecycle stage, target of improvement, degree of automation, and method family. One cell per axis, or a trajectory across cells over time.</p>
+    </div>
+    <div class="card reveal">
+      <span class="card-num">03 &middot; Mechanisms</span>
+      <h3>Nested objectives, made explicit</h3>
+      <p>Landmark methods reviewed at mechanism level: what the outer loop proposes, what the inner loop scores, which artifact changes, and whether the proposer can itself be rewritten.</p>
+    </div>
+    <div class="card reveal">
+      <span class="card-num">04 &middot; Roadmap</span>
+      <h3>Measurement before autonomy</h3>
+      <p>Open challenges (evaluator circularity, cost accounting, reproducibility, safety under recursion) mapped to a staged agenda: external evaluators first, hybrid oversight, auditable closed loops.</p>
+    </div>
+  </div>
+</section>
+
+<section class="landing-section reveal">
+  <div class="sec-rule"></div>
+  <h2 class="sec-title">A compressed lineage</h2>
+  <p class="sec-lede">Each stage removed an automation bottleneck and introduced a new evaluation problem. See <a href="paper.html#sec:history">Section 2</a> for the full account.</p>
+  <div class="timeline">
+    <div class="tl-item reveal"><div class="tl-dot"></div><strong>Early agents</strong><span>symbolic &amp; reactive control</span></div>
+    <div class="tl-item reveal"><div class="tl-dot"></div><strong>Learning agents</strong><span>RL, critics, hierarchies</span></div>
+    <div class="tl-item reveal"><div class="tl-dot"></div><strong>AutoML / meta</strong><span>HPO, NAS, bilevel learning</span></div>
+    <div class="tl-item reveal"><div class="tl-dot"></div><strong>Self-play</strong><span>endogenous curricula</span></div>
+    <div class="tl-item reveal"><div class="tl-dot"></div><strong>LLM agents</strong><span>tools, code, self-critique</span></div>
+    <div class="tl-item reveal"><div class="tl-dot"></div><strong>AI4AI today</strong><span>RSI &amp; agentic self-evolution</span></div>
+  </div>
+</section>
+
+<section class="landing-section reveal">
+  <div class="sec-rule"></div>
+  <h2 class="sec-title">Inside the survey</h2>
+  <p class="sec-lede">Nine sections, from historical grounding to an engineering agenda for self-improvement.</p>
+  <ol class="sec-list">
+    <a href="paper.html#sec:intro"><li><span class="sec-no">1</span><span class="sec-name">Introduction</span><span class="sec-desc">Motivation, scope, and contributions</span></li></a>
+    <a href="paper.html#sec:history"><li><span class="sec-no">2</span><span class="sec-name">Historical Lineage: How AI4AI Became Thinkable</span><span class="sec-desc">Agents, RL, outer-loop search, closed loops</span></li></a>
+    <a href="paper.html#sec:scope"><li><span class="sec-no">3</span><span class="sec-name">Scope and Positioning</span><span class="sec-desc">What counts as AI4AI, and what does not</span></li></a>
+    <a href="paper.html#sec:taxonomy"><li><span class="sec-no">4</span><span class="sec-name">A Multi-Axis Taxonomy</span><span class="sec-desc">Lifecycle, target, automation, method family</span></li></a>
+    <a href="paper.html#sec:survey"><li><span class="sec-no">5</span><span class="sec-name">Contemporary Threads</span><span class="sec-desc">HPO, NAS, meta-learning, data, agents, judges, alignment</span></li></a>
+    <a href="paper.html#sec:rsi"><li><span class="sec-no">6</span><span class="sec-name">Recursive Self-Improvement and Agentic Self-Evolution</span><span class="sec-desc">Closed loops where the improver updates itself</span></li></a>
+    <a href="paper.html#sec:challenges"><li><span class="sec-no">7</span><span class="sec-name">Challenges</span><span class="sec-desc">Evaluator circularity, cost, reproducibility, safety</span></li></a>
+    <a href="paper.html#sec:roadmap"><li><span class="sec-no">8</span><span class="sec-name">Roadmap</span><span class="sec-desc">Measurement first, hybrid oversight, controlled recursion</span></li></a>
+    <a href="paper.html#sec:conclusion"><li><span class="sec-no">9</span><span class="sec-name">Conclusion</span><span class="sec-desc">Keeping rewriting accountable</span></li></a>
+    <a href="paper.html#references"><li><span class="sec-no">&nbsp;</span><span class="sec-name">References</span><span class="sec-desc">Full bibliography with back-links</span></li></a>
+  </ol>
+</section>
+
+<section class="landing-section reveal">
+  <div class="sec-rule"></div>
+  <h2 class="sec-title">Citation</h2>
+  <p class="sec-lede">If this survey is useful to your work, please cite it as follows.</p>
+  <div class="bib-wrap">
+    <button class="bib-copy" type="button">Copy</button>
+    <pre class="bib-box">@article{ye2026ai4ai,
+  title   = {A Survey on AI for AI},
+  author  = {Ye, Deheng},
+  year    = {2026},
+  month   = aug,
+  url     = {https://3dagentworld.github.io/AI4AI-survey/}
+}</pre>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="foot-mark"><span class="brand-mark">ai</span>A Survey on AI for AI</div>
+  <div>&copy; 2026 Deheng Ye &middot; Hosted on GitHub Pages &middot; <a href="https://github.com/3DAgentWorld/AI4AI-survey" rel="noopener">Source repository</a></div>
+</footer>
+
+<script src="js/site.js"></script>
+</body>
+</html>
