@@ -8,7 +8,7 @@ Project page and full HTML edition of the survey **"A Survey on AI for AI: When 
 
 ## Source
 
-The LaTeX source of the survey lives in the accompanying `survey/` directory of the parent workspace (Overleaf project). The HTML edition is generated from it by a small converter (`tex2html.py`, kept outside this repository) that turns the `.tex` body and the prebuilt `.bbl` bibliography into semantic HTML.
+The LaTeX source of the survey (Springer Nature `sn-jnl` template, `sn-nature` style) lives in the accompanying `survey_new/` directory of the parent workspace (Overleaf project). The HTML edition is generated from it by a small converter (`tex2html.py`, kept outside this repository) that turns the `.tex` body and the compiled `.bbl` bibliography into semantic HTML. Figures are rasterized from the vector sources (`Figures/*.pdf` plus the TikZ topic map compiled standalone) into `assets/` by `make_assets.py`.
 
 ## Citation
 
@@ -18,7 +18,7 @@ The LaTeX source of the survey lives in the accompanying `survey/` directory of 
   author  = {Ye, Deheng and Zhang, Zheng and Wang, Hao and Miao, Chunyan},
   note    = {Ye and Zhang contributed equally.},
   year    = {2026},
-  month   = aug,
+  month   = sep,
   url     = {https://3dagentworld.github.io/AI4AI-survey/}
 }
 ```

@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>A Survey on AI for AI · 3DAgentWorld</title>
-<meta name="description" content="A Survey on AI for AI (AI4AI): algorithms, systems, and evaluation protocols in which one AI component materially improves another AI artifact across the model lifecycle.">
+<meta name="description" content="A Survey on AI for AI (AI4AI): the use of learned components or automated search to guide changes to AI systems and the artifacts used to build and assess them.">
 <meta property="og:title" content="A Survey on AI for AI">
-<meta property="og:description" content="When the Improver Becomes the Improvee. A survey of AI4AI: history, taxonomy, mechanisms, and a roadmap toward measurable self-improvement.">
+<meta property="og:description" content="When the Improver Becomes the Improvee. A survey of AI4AI: six research strands, a four-axis taxonomy, mechanism-level review, and research priorities for measurable self-improvement.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://3dagentworld.github.io/AI4AI-survey/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%234c63e8'/%3E%3Cstop offset='1' stop-color='%233ba7a0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='27' font-style='italic' fill='white' text-anchor='middle'%3Eai%3C/text%3E%3C/svg%3E">
@@ -71,7 +71,8 @@
     </div>
     <div class="hero-stats">
       <span class="chip">9 sections</span>
-      <span class="chip">4 figures &middot; 1 table</span>
+      <span class="chip">5 figures &middot; 1 table</span>
+      <span class="chip">100 references</span>
       <span class="chip">HTML edition</span>
       <span class="chip">Open access</span>
     </div>
@@ -84,8 +85,8 @@
   <p class="sec-lede">The survey in one paragraph pair. Read the <a href="paper.html#abstract">full text</a> for the complete version.</p>
   <div class="abstract-card">
     <span class="abs-label">Abstract</span>
-    <p>As machine learning systems grow more complex, an increasing share of the work of designing, training, evaluating, and maintaining them is itself being carried out by learning algorithms and generative agents. We survey this practice under the name <em>AI for AI</em> (<em>AI4AI</em>): the study of algorithms, systems, and evaluation protocols in which one AI component&mdash;a searcher, meta-learner, generative model, multi-agent population, or automated evaluator&mdash;materially improves another AI artifact or process across the model lifecycle. The framing is broader than classical AutoML, which historically emphasized pipeline configuration and architecture search, and narrower than &ldquo;AI for X&rdquo;, where the object of improvement lies outside AI systems.</p>
-    <p>AI4AI is not only a byproduct of large language models. We reconstruct a cumulative lineage in which early agents and reinforcement learning made improvement endogenous, AutoML and meta-learning made outer loops explicit, self-play supplied endogenous curricula, and language-model agents widened the action space to code, tools, and repositories. Building on this lineage, we propose a four-axis taxonomy organized by lifecycle stage, target of improvement, degree of automation, and method family, and close with open challenges&mdash;evaluator circularity, cost asymmetry, reproducibility, and safety under recursion&mdash;together with a staged roadmap toward measurement-first benchmarks, hybrid oversight, and auditable closed loops.</p>
+    <p>Learning systems increasingly help build and improve other learning systems. Searchers tune training settings, meta-learners shape learning rules, and agents edit code and workflows. Models also generate data and assess other models. We review these methods under the name <em>AI for AI</em> (<em>AI4AI</em>): the use of learned components or automated search to guide changes to AI systems and the artifacts used to build and assess them.</p>
+    <p>We trace links among reinforcement learning, automated machine learning, meta-learning, self-play, and language-model agents. A four-axis taxonomy describes lifecycle stage, improvement target, automation degree, and method family. We use it to compare what changes in each system and how feedback guides those changes. We distinguish task-level refinement, lasting self-improvement, and recursive self-improvement, which also requires a better capacity to make further improvements. We close with research priorities in independent evaluation, full cost reporting, human oversight, and controlled self-modification.</p>
     <a class="abstract-more" href="paper.html#abstract">Continue reading &rarr;</a>
   </div>
 </section>
@@ -96,9 +97,9 @@
   <p class="sec-lede">Four moves that turn a scattered literature into one measurable family.</p>
   <div class="card-grid">
     <div class="card reveal">
-      <span class="card-num">01 &middot; History</span>
-      <h3>A convergence, not a break</h3>
-      <p>Reconstructs AI4AI as a cumulative lineage: agents and RL, AutoML and meta-learning, self-play, then LLM agents. Recursive self-improvement is the high-automation end of the same spectrum.</p>
+      <span class="card-num">01 &middot; Strands</span>
+      <h3>Six strands, one relation</h3>
+      <p>Traces six research strands that overlap in time rather than forming stages: agents and RL, AutoML and meta-learning, self-play, and language-model agents. Recursive self-improvement sits at the high-automation end of the same family.</p>
     </div>
     <div class="card reveal">
       <span class="card-num">02 &middot; Taxonomy</span>
@@ -111,24 +112,24 @@
       <p>Landmark methods reviewed at mechanism level: what the outer loop proposes, what the inner loop scores, which artifact changes, and whether the proposer can itself be rewritten.</p>
     </div>
     <div class="card reveal">
-      <span class="card-num">04 &middot; Roadmap</span>
-      <h3>Measurement before autonomy</h3>
-      <p>Open challenges (evaluator circularity, cost accounting, reproducibility, safety under recursion) mapped to a staged agenda: external evaluators first, hybrid oversight, auditable closed loops.</p>
+      <span class="card-num">04 &middot; Priorities</span>
+      <h3>Verified gains, stated conditions</h3>
+      <p>Research priorities in independent evaluation, full cost reporting, human oversight, and controlled self-modification. Progress is judged by verified gains under stated conditions, not by the amount of automation.</p>
     </div>
   </div>
 </section>
 
 <section class="landing-section reveal">
   <div class="sec-rule"></div>
-  <h2 class="sec-title">A compressed lineage</h2>
-  <p class="sec-lede">Each stage removed an automation bottleneck and introduced a new evaluation problem. See <a href="paper.html#sec:history">Section 2</a> for the full account.</p>
-  <div class="timeline">
-    <div class="tl-item reveal"><div class="tl-dot"></div><strong>Early agents</strong><span>symbolic &amp; reactive control</span></div>
-    <div class="tl-item reveal"><div class="tl-dot"></div><strong>Learning agents</strong><span>RL, critics, hierarchies</span></div>
-    <div class="tl-item reveal"><div class="tl-dot"></div><strong>AutoML / meta</strong><span>HPO, NAS, bilevel learning</span></div>
-    <div class="tl-item reveal"><div class="tl-dot"></div><strong>Self-play</strong><span>endogenous curricula</span></div>
-    <div class="tl-item reveal"><div class="tl-dot"></div><strong>LLM agents</strong><span>tools, code, self-critique</span></div>
-    <div class="tl-item reveal"><div class="tl-dot"></div><strong>AI4AI today</strong><span>RSI &amp; agentic self-evolution</span></div>
+  <h2 class="sec-title">Six research strands</h2>
+  <p class="sec-lede">The strands overlap in time and developed in parallel; the grouping collects ideas, not dates. See <a href="paper.html#fig:lineage">Figure 2</a> and <a href="paper.html#sec:history">Section 2</a> for the full account.</p>
+  <div class="timeline strands">
+    <div class="tl-item reveal"><div class="tl-dot"></div><strong>Early agents</strong><span>humans design the learner</span></div>
+    <div class="tl-item reveal"><div class="tl-dot"></div><strong>Learning agents</strong><span>critic improves policy</span></div>
+    <div class="tl-item reveal"><div class="tl-dot"></div><strong>AutoML / meta</strong><span>searcher improves config</span></div>
+    <div class="tl-item reveal"><div class="tl-dot"></div><strong>Self-play</strong><span>AI writes the curriculum</span></div>
+    <div class="tl-item reveal"><div class="tl-dot"></div><strong>LLM agents</strong><span>agent edits code and workflow</span></div>
+    <div class="tl-item reveal"><div class="tl-dot"></div><strong>AI4AI today</strong><span>improver becomes improvee</span></div>
   </div>
 </section>
 
@@ -161,7 +162,7 @@
   author  = {Ye, Deheng and Zhang, Zheng and Wang, Hao and Miao, Chunyan},
   note    = {Ye and Zhang contributed equally.},
   year    = {2026},
-  month   = aug,
+  month   = sep,
   url     = {https://3dagentworld.github.io/AI4AI-survey/}
 }</pre>
   </div>

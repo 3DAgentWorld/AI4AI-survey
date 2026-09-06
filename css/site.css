@@ -439,6 +439,13 @@ a:hover { text-decoration: underline; }
   .timeline { grid-template-columns: repeat(2, 1fr); gap: 1.4rem; }
   .timeline::before { display: none; }
 }
+/* parallel research strands (no sequential connector) */
+.timeline.strands { grid-template-columns: repeat(3, 1fr); gap: 1.7rem 1.2rem; }
+.timeline.strands::before { display: none; }
+.timeline.strands .tl-dot { margin-top: 0; }
+@media (max-width: 800px) {
+  .timeline.strands { grid-template-columns: repeat(2, 1fr); }
+}
 
 /* paper map (section list) */
 .sec-list { list-style: none; margin: 0; padding: 0; counter-reset: secmap; }
@@ -673,6 +680,28 @@ code {
   margin: 2.2rem 0;
   scroll-margin-top: 80px;
 }
+/* rasterized paper figures sit on a white plate so black-on-white
+   vector art stays legible in dark mode too */
+.fig-plate {
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.9rem;
+  box-shadow: var(--shadow);
+}
+.fig-plate img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+sup.citation {
+  font-size: 0.72em;
+  line-height: 0;
+  margin-left: 1px;
+  font-family: var(--sans);
+}
+sup.citation .cite { font-weight: 600; }
 .paper-figure figcaption, .paper-table figcaption {
   font-family: var(--sans);
   font-size: 0.8rem;
