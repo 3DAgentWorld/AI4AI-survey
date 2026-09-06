@@ -6,10 +6,6 @@ Project page and full HTML edition of the survey **"A Survey on AI for AI: When 
 - Landing page (`index.html`): abstract, contributions, lineage overview, citation.
 - Full text (`paper.html`): the complete survey with a sticky table of contents, linked citations and back-references, interactive figures, and KaTeX-rendered mathematics.
 
-## Source
-
-The LaTeX source of the survey (Springer Nature `sn-jnl` template, `sn-nature` style) lives in the accompanying `survey_new/` directory of the parent workspace (Overleaf project). The HTML edition is generated from it by a small converter (`tex2html.py`, kept outside this repository) that turns the `.tex` body and the compiled `.bbl` bibliography into semantic HTML. Figures are rasterized from the vector sources (`Figures/*.pdf` plus the TikZ topic map compiled standalone) into `assets/` by `make_assets.py`.
-
 ## Citation
 
 ```bibtex
