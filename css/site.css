@@ -875,6 +875,18 @@ table.thread-map td {
   line-height: 1.55;
 }
 table.thread-map td:first-child { font-weight: 600; color: var(--ink); white-space: nowrap; }
+table.thread-map tr.tgroup td {
+  padding: 0.85rem 1rem 0.35rem;
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-bottom: 1px solid var(--line);
+  white-space: normal;
+}
+table.thread-map tr.tgroup:hover td { background: var(--accent-soft); }
 table.thread-map tbody tr:last-child td { border-bottom: none; }
 table.thread-map tbody tr { transition: background 0.15s ease; }
 table.thread-map tbody tr:hover { background: var(--accent-soft); }

@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>A Survey on AI for AI · 3DAgentWorld</title>
-<meta name="description" content="A Survey on AI for AI (AI4AI): the use of learned components or automated search to guide changes to AI systems and the artifacts used to build and assess them.">
+<meta name="description" content="A Survey on AI for AI (AI4AI): how foundation models and agents built on them improve models and agent systems, and what changes when the improver itself changes.">
 <meta property="og:title" content="A Survey on AI for AI">
-<meta property="og:description" content="When the Improver Becomes the Improvee. A survey of AI4AI: six research strands, a four-axis taxonomy, mechanism-level review, and research priorities for measurable self-improvement.">
+<meta property="og:description" content="When the Improver Becomes the Improvee. A Review of AI4AI: three improver roles, the paths by which improvers change, their gains and failure modes, and tests that separate real progress from rising internal scores.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://3dagentworld.github.io/AI4AI-survey/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%234c63e8'/%3E%3Cstop offset='1' stop-color='%233ba7a0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='27' font-style='italic' fill='white' text-anchor='middle'%3Eai%3C/text%3E%3C/svg%3E">
@@ -70,9 +70,9 @@
       </a>
     </div>
     <div class="hero-stats">
-      <span class="chip">9 sections</span>
-      <span class="chip">5 figures &middot; 1 table</span>
-      <span class="chip">100 references</span>
+      <span class="chip">7 sections</span>
+      <span class="chip">4 figures &middot; 2 tables</span>
+      <span class="chip">156 references</span>
       <span class="chip">HTML edition</span>
       <span class="chip">Open access</span>
     </div>
@@ -82,11 +82,11 @@
 <section class="landing-section reveal">
   <div class="sec-rule"></div>
   <h2 class="sec-title">Abstract</h2>
-  <p class="sec-lede">The survey in one paragraph pair. Read the <a href="paper.html#abstract">full text</a> for the complete version.</p>
+  <p class="sec-lede">The Review in two paragraphs. Read the <a href="paper.html#abstract">full text</a> for the complete version.</p>
   <div class="abstract-card">
     <span class="abs-label">Abstract</span>
-    <p>Learning systems increasingly help build and improve other learning systems. Searchers tune training settings, meta-learners shape learning rules, and agents edit code and workflows. Models also generate data and assess other models. We review these methods under the name <em>AI for AI</em> (<em>AI4AI</em>): the use of learned components or automated search to guide changes to AI systems and the artifacts used to build and assess them.</p>
-    <p>We trace links among reinforcement learning, automated machine learning, meta-learning, self-play, and language-model agents. A four-axis taxonomy describes lifecycle stage, improvement target, automation degree, and method family. We use it to compare what changes in each system and how feedback guides those changes. We distinguish task-level refinement, lasting self-improvement, and recursive self-improvement, which also requires a better capacity to make further improvements. We close with research priorities in independent evaluation, full cost reporting, human oversight, and controlled self-modification.</p>
+    <p>Foundation models increasingly help build other AI systems. They generate training data, provide feedback and write programs that guide learning. This Review examines how foundation models and agents built on them improve models and agent systems. We focus on cases where the improver itself changes. We compare updates to experience generators, evaluation mechanisms and programs that produce improvements. A system may combine these paths. Their effects depend on the feedback used, the experience kept for later rounds and the external checks that remain fixed.</p>
+    <p>We examine their benefits, failure modes and costs. We distinguish changes to an improver from gains in its ability to improve AI in later rounds. This distinction guides future research on independent tests, fair budget comparisons, use on new tasks and progress over repeated updates.</p>
     <a class="abstract-more" href="paper.html#abstract">Continue reading &rarr;</a>
   </div>
 </section>
@@ -94,59 +94,54 @@
 <section class="landing-section reveal">
   <div class="sec-rule"></div>
   <h2 class="sec-title">Contributions</h2>
-  <p class="sec-lede">Four moves that turn a scattered literature into one measurable family.</p>
+  <p class="sec-lede">Four moves that turn a scattered literature into one testable question.</p>
   <div class="card-grid">
     <div class="card reveal">
-      <span class="card-num">01 &middot; Strands</span>
-      <h3>Six strands, one relation</h3>
-      <p>Traces six research strands that overlap in time rather than forming stages: agents and RL, AutoML and meta-learning, self-play, and language-model agents. Recursive self-improvement sits at the high-automation end of the same family.</p>
+      <span class="card-num">01 &middot; Anatomy</span>
+      <h3>Three improver roles</h3>
+      <p>Methods grouped by the work the improver supplies: training experience, evaluation feedback, or changes to prompts, workflows and code. One system may take several roles, and the improver and improvee need not share a form.</p>
     </div>
     <div class="card reveal">
-      <span class="card-num">02 &middot; Taxonomy</span>
-      <h3>Four shared coordinates</h3>
-      <p>A coordinate system for comparison: lifecycle stage, target of improvement, degree of automation, and method family. One cell per axis, or a trajectory across cells over time.</p>
+      <span class="card-num">02 &middot; Change</span>
+      <h3>When the improver updates</h3>
+      <p>The paths by which generators, evaluators and modification programs themselves change, and what each path keeps for later rounds: selected traces, stored feedback, rubrics, reward code or archived agents.</p>
     </div>
     <div class="card reveal">
-      <span class="card-num">03 &middot; Mechanisms</span>
-      <h3>Nested objectives, made explicit</h3>
-      <p>Landmark methods reviewed at mechanism level: what the outer loop proposes, what the inner loop scores, which artifact changes, and whether the proposer can itself be rewritten.</p>
+      <span class="card-num">03 &middot; Limits</span>
+      <h3>Gains with their failure modes</h3>
+      <p>Coverage narrowing under success-based selection, evaluator drift, error accumulation in memory and archives, and the transfer and cost questions that task scores alone cannot answer.</p>
     </div>
     <div class="card reveal">
-      <span class="card-num">04 &middot; Priorities</span>
-      <h3>Verified gains, stated conditions</h3>
-      <p>Research priorities in independent evaluation, full cost reporting, human oversight, and controlled self-modification. Progress is judged by verified gains under stated conditions, not by the amount of automation.</p>
+      <span class="card-num">04 &middot; Evidence</span>
+      <h3>Tests that separate causes</h3>
+      <p>A comparison protocol for updated improvers: two copies of the same improvee, one changed by the updated improver and one by a fixed earlier version, under comparable budgets and independent tests.</p>
     </div>
   </div>
 </section>
 
 <section class="landing-section reveal">
   <div class="sec-rule"></div>
-  <h2 class="sec-title">Six research strands</h2>
-  <p class="sec-lede">The strands overlap in time and developed in parallel; the grouping collects ideas, not dates. See <a href="paper.html#fig:lineage">Figure 2</a> and <a href="paper.html#sec:history">Section 2</a> for the full account.</p>
+  <h2 class="sec-title">Three improver roles</h2>
+  <p class="sec-lede">Every method in the Review supplies one or more of three kinds of work. See <a href="paper.html#fig:taxonomy">Figure 1</a> and <a href="paper.html#sec:improvers">Section 3</a> for the full account.</p>
   <div class="timeline strands">
-    <div class="tl-item reveal"><div class="tl-dot"></div><strong>Early agents</strong><span>humans design the learner</span></div>
-    <div class="tl-item reveal"><div class="tl-dot"></div><strong>Learning agents</strong><span>critic improves policy</span></div>
-    <div class="tl-item reveal"><div class="tl-dot"></div><strong>AutoML / meta</strong><span>searcher improves config</span></div>
-    <div class="tl-item reveal"><div class="tl-dot"></div><strong>Self-play</strong><span>AI writes the curriculum</span></div>
-    <div class="tl-item reveal"><div class="tl-dot"></div><strong>LLM agents</strong><span>agent edits code and workflow</span></div>
-    <div class="tl-item reveal"><div class="tl-dot"></div><strong>AI4AI today</strong><span>improver becomes improvee</span></div>
+    <div class="tl-item reveal"><div class="tl-dot"></div><strong>Training experience</strong><span>data, traces, tasks and interaction</span></div>
+    <div class="tl-item reveal"><div class="tl-dot"></div><strong>Evaluation feedback</strong><span>scores, critics, reward code, rubrics</span></div>
+    <div class="tl-item reveal"><div class="tl-dot"></div><strong>System changes</strong><span>prompts, workflows, architectures, code</span></div>
   </div>
 </section>
 
 <section class="landing-section reveal">
   <div class="sec-rule"></div>
   <h2 class="sec-title">Inside the survey</h2>
-  <p class="sec-lede">Nine sections, from historical grounding to an engineering agenda for self-improvement.</p>
+  <p class="sec-lede">Seven sections, from the anatomy of improvement to an evaluation agenda for updated improvers.</p>
   <ol class="sec-list">
-    <a href="paper.html#sec:intro"><li><span class="sec-no">1</span><span class="sec-name">Introduction</span><span class="sec-desc">Motivation, scope, and contributions</span></li></a>
-    <a href="paper.html#sec:history"><li><span class="sec-no">2</span><span class="sec-name">Historical Lineage: How AI4AI Became Thinkable</span><span class="sec-desc">Agents, RL, outer-loop search, closed loops</span></li></a>
-    <a href="paper.html#sec:scope"><li><span class="sec-no">3</span><span class="sec-name">Scope and Positioning</span><span class="sec-desc">What counts as AI4AI, and what does not</span></li></a>
-    <a href="paper.html#sec:taxonomy"><li><span class="sec-no">4</span><span class="sec-name">A Multi-Axis Taxonomy</span><span class="sec-desc">Lifecycle, target, automation, method family</span></li></a>
-    <a href="paper.html#sec:survey"><li><span class="sec-no">5</span><span class="sec-name">Contemporary Threads</span><span class="sec-desc">HPO, NAS, meta-learning, data, agents, judges, alignment</span></li></a>
-    <a href="paper.html#sec:rsi"><li><span class="sec-no">6</span><span class="sec-name">Recursive Self-Improvement and Agentic Self-Evolution</span><span class="sec-desc">Closed loops where the improver updates itself</span></li></a>
-    <a href="paper.html#sec:challenges"><li><span class="sec-no">7</span><span class="sec-name">Challenges</span><span class="sec-desc">Evaluator circularity, cost, reproducibility, safety</span></li></a>
-    <a href="paper.html#sec:roadmap"><li><span class="sec-no">8</span><span class="sec-name">Roadmap</span><span class="sec-desc">Measurement first, hybrid oversight, controlled recursion</span></li></a>
-    <a href="paper.html#sec:conclusion"><li><span class="sec-no">9</span><span class="sec-name">Conclusion</span><span class="sec-desc">Keeping rewriting accountable</span></li></a>
+    <a href="paper.html#sec:introduction"><li><span class="sec-no">1</span><span class="sec-name">Introduction</span><span class="sec-desc">Why the improver and the improvee must be studied together</span></li></a>
+    <a href="paper.html#sec:anatomy"><li><span class="sec-no">2</span><span class="sec-name">Anatomy of AI for AI</span><span class="sec-desc">Scope, roles, feedback, updates, boundaries and timescales</span></li></a>
+    <a href="paper.html#sec:improvers"><li><span class="sec-no">3</span><span class="sec-name">Foundation Models and Agents as Improvers</span><span class="sec-desc">Training experience, evaluation feedback, system design</span></li></a>
+    <a href="paper.html#sec:changing"><li><span class="sec-no">4</span><span class="sec-name">When the Improver Becomes the Improvee</span><span class="sec-desc">Generators, evaluation mechanisms, rules and programs</span></li></a>
+    <a href="paper.html#sec:limits"><li><span class="sec-no">5</span><span class="sec-name">Gains and Failure Modes</span><span class="sec-desc">Coverage, drift, memory, transfer and cost</span></li></a>
+    <a href="paper.html#sec:evidence"><li><span class="sec-no">6</span><span class="sec-name">Evaluation and Outlook</span><span class="sec-desc">Testing updated improvers, future directions</span></li></a>
+    <a href="paper.html#sec:conclusion"><li><span class="sec-no">7</span><span class="sec-name">Conclusion</span><span class="sec-desc">Improvement processes, not loops</span></li></a>
     <a href="paper.html#references"><li><span class="sec-no">&nbsp;</span><span class="sec-name">References</span><span class="sec-desc">Full bibliography with back-links</span></li></a>
   </ol>
 </section>
@@ -157,13 +152,15 @@
   <p class="sec-lede">If this survey is useful to your work, please cite it as follows.</p>
   <div class="bib-wrap">
     <button class="bib-copy" type="button">Copy</button>
-    <pre class="bib-box">@article{ye2026ai4ai,
-  title   = {A Survey on AI for AI},
-  author  = {Ye, Deheng and Zhang, Zheng and Wang, Hao and Miao, Chunyan},
-  note    = {Ye and Zhang contributed equally.},
-  year    = {2026},
-  month   = sep,
-  url     = {https://3dagentworld.github.io/AI4AI-survey/}
+    <pre class="bib-box">@article{202609.0591,
+  doi       = {10.20944/preprints202609.0591.v1},
+  url       = {https://doi.org/10.20944/preprints202609.0591.v1},
+  year      = 2026,
+  month     = {September},
+  publisher = {Preprints},
+  author    = {Deheng Ye and Zheng Zhang and Hao Wang and Chunyan Miao},
+  title     = {A Survey on AI for AI: When the Improver Becomes the Improvee},
+  journal   = {Preprints}
 }</pre>
   </div>
 </section>
