@@ -1,0 +1,196 @@
+key,title,venue,year,official,source
+guo-etal-2026-counteracting,Counteracting the Matthew Effect in Self-Improvement of LVLMs through Head-Tail Re-balancing,ACL,2026,True,acl_anthology
+dong2025stp,STP: Self-play LLM Theorem Provers with Iterative Conjecturing and Proving,ICML,2025,True,openreview
+tsoukalas2025learning,Learning Interestingness in Automated Mathematical Theory Formation,NeurIPS,2025,True,openreview
+zhao2026achieving,Achieving Expert-Level Agent from Foundation Model via Complexity Curriculum Reinforcement Learning with Synthetic Data,ICLR,2026,True,openreview
+zhou2023lima,LIMA: Less Is More for Alignment,NeurIPS 2023 poster,2023,True,https://openreview.net/forum?id=KBMOKmX2he
+Shumailov2024,AI models collapse when trained on recursively generated data,Nature,2024,True,https://citation-needed.springer.com/v2/references/10.1038/s41586-024-07566-y?format=bibtex&flavour=citation
+pmlr-v235-fu24i,Towards Theoretical Understandings of Self-Consuming Generative Models,ICML,2024,True,pmlr
+gerstgrasser2024is,Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data,ECCV 2024 Workshop The Dark Side of Generative AIs and Beyond,2024,True,supplemental_sources/accumulation.bib
+falahati2026curated,Curated Synthetic Data Doesn’t Have to Collapse: A Theoretical Study of Generative Retraining with Pluralistic Preferences,ICML,2026,True,review40_official.bib
+Wei_2025_ICCV,GTR: Guided Thought Reinforcement Prevents Thought Collapse in RL-based VLM Agent Training,ICCV,2025,True,cvf
+DBLP:conf/nips/ZhengC00WZL0LXZ23,Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,NeurIPS 2023,2023,True,https://openreview.net/forum?id=RAW0XaE5nq
+shen-etal-2023-large,Large Language Models are Not Yet Human-Level Evaluators for Abstractive Summarization,Findings of EMNLP,2023,True,acl_anthology
+chen-etal-2024-humans,Humans or LLMs as the Judge? A Study on Judgement Bias,EMNLP,2024,True,acl_anthology
+hwang-etal-2025-fooling,Fooling the LVLM Judges: Visual Biases in LVLM-Based Evaluation,EMNLP,2025,True,acl_anthology
+pmlr-v202-gao23h,Scaling Laws for Reward Model Overoptimization,ICML,2023,True,pmlr
+wen2025rethinking,Rethinking Reward Model Evaluation: Are We Barking up the Wrong Tree?,ICLR,2025,True,openreview
+Liao_2025_CVPR,Can Large Vision-Language Models Correct Semantic Grounding Errors By Themselves?,CVPR,2025,True,cvf
+zhou2024calibrated,Calibrated Self-Rewarding Vision Language Models,NeurIPS,2024,True,openreview
+DBLP:conf/aaai/Zhao0XLLH24,ExpeL: LLM Agents Are Experiential Learners,AAAI 2024,2024,True,https://openreview.net/forum?id=lErv7eTDvS
+shinn2023reflexion,Reflexion: language agents with verbal reinforcement learning,NeurIPS,2023,True,openreview
+zhang2026darwin,"Darwin G\""odel Machine: Open-Ended Evolution of Self-Improving Agents",The Fourteenth International Conference on Learning Representations,2026,True,supplemental_sources/dgm.bib
+su-etal-2026-mistake,Mistake Notebook Learning: Batch-Clustered Failures for Training-Free Agent Adaptation,Findings of ACL,2026,True,acl_anthology
+liu-etal-2025-contextual,Contextual Experience Replay for Self-Improvement of Language Agents,ACL,2025,True,acl_anthology
+ge-etal-2025-samule,SAMULE: Self-Learning Agents Enhanced by Multi-level Reflection,EMNLP,2025,True,acl_anthology
+Zhang2026evolving,Evolving Generalist Virtual Agents with Generative and Associative Memory,AAAI,2026,True,meta
+shen2026structurally,Structurally Aligned Subtask-Level Memory for Software Engineering Agents,ICML,2026,True,openreview
+hu2026evaluating,EVALUATING MEMORY IN LLM AGENTS VIA INCRE- MENTAL MULTI-TURN INTERACTIONS,ICLR,2026,True,openreview
+shao2026your,Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents,ICLR,2026,True,openreview
+yin-etal-2026-reasoning,The Reasoning Trap: How Enhancing LLM Reasoning Amplifies Tool Hallucination,ACL,2026,True,acl_anthology
+zhang2025agent,Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents,ICLR,2025,True,openreview
+agnihotri2026multiobjective,Multi-Objective Preference Optimization: Improving Human Alignment of Generative Models,ICML,2026,True,openreview
+hu2025automated,Automated Design of Agentic Systems,ICLR,2025,True,openreview
+zelikman2024selftaught,Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation,COLM,2024,True,openreview
+xu2025metatextgrad,metaTextGrad: Automatically optimizing language model optimizers,NeurIPS,2025,True,openreview
+el-etal-2025-inefficiencies,Inefficiencies of Meta Agents for Agent Design,Findings of EMNLP,2025,True,acl_anthology
+yang2025spend,Spend Wisely: Maximizing Post-Training Gains in Iterative Synthetic Data Bootstrapping,NeurIPS,2025,True,openreview
+alazraki2026scaling,Scaling Small Agents Through Strategy Auctions,ICML,2026,True,openreview
+yuksekgonul2026learning,Learning to Discover at Test Time,ICML,2026,True,openreview
+cheng2025language,Language Modeling by Language Models,NeurIPS,2025,True,openreview
+Gao_2024_CVPR,CLOVA: A Closed-LOop Visual Assistant with Tool Usage and Update,CVPR,2024,True,cvf
+wu2024autogen,AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversations,COLM,2024,True,https://openreview.net/forum?id=BAakY1hNKS
+hong2024metagpt,MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework,ICLR 2024 oral,2024,True,https://openreview.net/forum?id=VtmBAGCN7o
+DBLP:conf/nips/YangJWLYNP24,SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering,NeurIPS 2024,2024,True,https://openreview.net/forum?id=30hggYAY0Z
+zelikman2022star,STaR: Bootstrapping Reasoning With Reasoning,NeurIPS,2022,True,openreview
+hazra2025revolve,REvolve: Reward Evolution with Large Language Models using Human Feedback,ICLR,2025,True,openreview
+madaan2023selfrefine,Self-Refine: Iterative Refinement with Self-Feedback,NeurIPS,2023,True,openreview
+chen2024teaching,Teaching Large Language Models to Self-Debug,ICLR,2024,True,openreview
+olausson2024is,Is Self-Repair a Silver Bullet for Code Generation?,ICLR,2024,True,openreview
+tandon-etal-2022-learning,Learning to repair: Repairing model output errors after deployment using a dynamic memory of feedback,Findings of NAACL,2022,True,acl_anthology
+gao-etal-2024-self-evolving,Self-Evolving GPT: A Lifelong Autonomous Experiential Learner,ACL,2024,True,acl_anthology
+pmlr-v235-chen24j,Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models,ICML,2024,True,https://proceedings.mlr.press/v235/chen24j.html
+zelikman2024quietstar,Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking,COLM,2024,True,https://openreview.net/forum?id=oRXPiSOGH9
+qu2024recursive,Recursive Introspection: Teaching Language Model Agents How to Self-Improve,NeurIPS,2024,True,openreview
+pourcel2025selfimproving,Self-Improving Language Models for Evolutionary Program Synthesis: A Case Study on ARC-AGI,ICML,2025,True,openreview
+lin2026goedelproverv,Goedel-Prover-V2: Scaling Formal Theorem Proving with Scaffolded Data Synthesis and Self-Correction,ICLR,2026,True,openreview
+surina2025algorithm,Algorithm Discovery With LLMs: Evolutionary Search Meets Reinforcement Learning,COLM,2025,True,openreview
+kumarappan2025leanagent,LeanAgent: Lifelong Learning for Formal Theorem Proving,ICLR,2025,True,openreview
+poesia2024learning,Learning Formal Mathematics From Intrinsic Motivation,NeurIPS,2024,True,openreview
+zhao2025absolute,Absolute Zero: Reinforced Self-play Reasoning with Zero Data,NeurIPS,2025,True,openreview
+he-etal-2025-openwebvoyager,"OpenWebVoyager: Building Multimodal Web Agents via Iterative Real-World Exploration, Feedback and Optimization",ACL,2025,True,acl_anthology
+pan2026advevomarl,AdvEvo-MARL: Shaping Internalized Safety through Adversarial Co-Evolution in Multi-Agent Reinforcement Learning,ICML,2026,True,openreview
+pmlr-v235-yuan24d,Self-Rewarding Language Models,Proceedings of the 41st International Conference on Machine Learning,2024,True,supplemental_sources/self_rewarding.bib
+xie2025teaching,Teaching Language Models to Critique via Reinforcement Learning,ICML,2025,True,openreview
+Huang2025efficient,Efficient Language-instructed Skill Acquisition via Reward-Policy Co-Evolution,AAAI,2025,True,meta
+shao2026dr,DR Tulu: Reinforcement Learning with Evolving Rubrics for Deep Research,ICML,2026,True,openreview
+chen2026rucl,RuCL: Stratified Rubric-Based Curriculum Learning for Multimodal Large Language Model Reasoning,ICML,2026,True,openreview
+wan-etal-2026-inference,Inference-Time Scaling of Verification: Self-Evolving Deep Research Agents via Test-Time Rubric-Guided Verification,Findings of ACL,2026,True,acl_anthology
+pmlr-v235-fernando24a,Promptbreeder: Self-Referential Self-Improvement via Prompt Evolution,Proceedings of the 41st International Conference on Machine Learning,2024,True,supplemental_sources/promptbreeder.bib
+cai2026from,From Player to Master: Enhancing Test-Time Learning of LLM Agents via Reinforcement Learning over Memory,ICML,2026,True,openreview
+wang2026huxleygodel,Huxley-Gödel Machine: Human-Level Coding Agent Development by an Approximation of the Optimal Self-Improving Machine,ICLR,2026,True,openreview
+pmlr-v235-huang24y,MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation,ICML,2024,True,pmlr
+chan2025mlebench,MLE-Bench: Evaluating Machine Learning Agents on Machine Learning Engineering,ICLR,2025,True,openreview
+ursekar2026vero,VeRO: A Harness for Agents to Optimize Agents,ICML,2026,True,openreview
+ICLR2024_edac78c3,SWE-bench: Can Language Models Resolve Real-world Github Issues?,ICLR,2024,True,https://proceedings.iclr.cc/paper_files/paper/2024/hash/edac78c3e300629acfe6cbe9ca88fb84-Abstract-Conference.html
+tian-etal-2024-debugbench,DebugBench: Evaluating Debugging Capability of Large Language Models,Findings of ACL,2024,True,acl_anthology
+gautam2025refactorbench,RefactorBench: Evaluating Stateful Reasoning in Language Agents Through Code,ICLR,2025,True,openreview
+zhou2026creditbudgeted,Credit-Budgeted ICPC-Style Coding: When LLM Agents Must Pay for Every Decision,ICLR,2026,True,openreview
+shirali2023a,A Theory of Dynamic Benchmarks,ICLR,2023,True,openreview
+jain2025livecodebench,LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code,ICLR,2025,True,openreview
+safarzadeh-etal-2026-spence,SPENCE: A Syntactic Probe for Detecting Contamination in NL2SQL Benchmarks,ACL,2026,True,acl_anthology
+gupta2026position,Position: ICML Should Treat Hosted LLM APIs as Versioned Dependencies and Require Drift-Audit Artifacts,ICML,2026,True,openreview
+wang-etal-2023-self-instruct,Self-Instruct: Aligning Language Models with Self-Generated Instructions,Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers),2023,True,https://aclanthology.org/2023.acl-long.754.bib
+askari-etal-2025-solid,SOLID: Self-seeding and Multi-intent Self-instructing LLMs for Generating Intent-aware Information-Seeking Dialogs,Findings of NAACL,2025,True,acl_anthology
+mao-etal-2024-rag,RAG-Studio: Towards In-Domain Adaptation of Retrieval Augmented Generation Through Self-Alignment,Findings of EMNLP,2024,True,acl_anthology
+wu2022autoformalization,Autoformalization with Large Language Models,NeurIPS,2022,True,openreview
+haluptzok2023language,Language Models Can Teach Themselves to Program Better,ICLR,2023,True,openreview
+wu-2024-uicoder,UICoder: Finetuning Large Language Models to Generate User Interface Code through Automated Feedback,NAACL,2024,True,acl_anthology
+DBLP:conf/nips/SchickDDRLHZCS23,Toolformer: Language Models Can Teach Themselves to Use Tools,NeurIPS 2023,2023,True,https://openreview.net/forum?id=psqD4Ny7yi
+hsieh-etal-2023-distilling,Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes,Findings of the Association for Computational Linguistics: ACL 2023,2023,True,https://aclanthology.org/2023.findings-acl.507.bib
+tong-etal-2024-llms,Can LLMs Learn from Previous Mistakes? Investigating LLMs’ Errors to Boost for Reasoning,ACL,2024,True,acl_anthology
+cho-etal-2025-self,Self-Correcting Code Generation Using Small Language Models,Findings of EMNLP,2025,True,acl_anthology
+Zhang2026ap2o,AP2O-Coder: Adaptively Progressive Preference Optimization for Reducing Compilation and Runtime Errors in LLM-Generated Code,AAAI,2026,True,meta
+kung-etal-2023-active,Active Instruction Tuning: Improving Cross-Task Generalization by Training on Prompt Sensitive Tasks,EMNLP,2023,True,acl_anthology
+li-etal-2025-teaching,Teaching According to Talents! Instruction Tuning LLMs with Competence-Aware Curriculum Learning,Findings of EMNLP,2025,True,acl_anthology
+yang2025selfguided,Self-Guided Hierarchical Exploration for Generalist Foundation Model Web Agents,NeurIPS,2025,True,openreview
+Yang_2024_CVPR,Embodied Multi-Modal Agent trained by an LLM from a Parallel TextWorld,CVPR,2024,True,cvf
+NEURIPS2022_b1efde53,Training language models to follow instructions with human feedback,Advances in Neural Information Processing Systems,2022,True,https://proceedings.neurips.cc/paper_files/paper/19175-/bibtex
+NEURIPS2023_a85b405e,Direct Preference Optimization: Your Language Model is Secretly a Reward Model,Advances in Neural Information Processing Systems,2023,True,https://proceedings.neurips.cc/paper_files/paper/22372-/bibtex
+lee2024rlaif,RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback,ICML 2024 Poster,2024,True,https://openreview.net/forum?id=uydQ2W41KO
+setlur2025rewarding,Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning,ICLR,2025,True,openreview
+rajaee-etal-2025-local,Local Look-Ahead Guidance via Verifier-in-the-Loop for Automated Theorem Proving,Findings of ACL,2025,True,acl_anthology
+yang2025the,The Lighthouse of Language: Enhancing LLM Agents via Critique-Guided Improvement,NeurIPS,2025,True,openreview
+li2026webdevjudge,WebDevJudge: Evaluating (M)LLMs as Critiques for Web Development Quality,ICLR,2026,True,openreview
+deutsch-etal-2022-limitations,On the Limitations of Reference-Free Evaluations of Generated Text,EMNLP,2022,True,acl_anthology
+son2026judging,Judging What We Cannot Solve: A Consequence-Based Approach for Oracle-Free Evaluation of Research-Level Math,ICML,2026,True,openreview
+Yuksekgonul2025,Optimizing generative AI by backpropagating language model feedback,Nature,2025,True,https://citation-needed.springer.com/v2/references/10.1038/s41586-025-08661-4?format=bibtex&flavour=citation
+pryzant-etal-2023-automatic,Automatic Prompt Optimization with ``Gradient Descent'' and Beam Search,Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing,2023,True,https://aclanthology.org/2023.emnlp-main.494.bib
+agrawal2026gepa,GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning,ICLR 2026 Oral,2026,True,https://openreview.net/forum?id=RQm2KQTM5r
+zhang2025aflow,AFlow: Automating Agentic Workflow Generation,ICLR 2025 Oral,2025,True,https://openreview.net/forum?id=z5uVAKwmjf
+yuan-etal-2025-dolphin,"Dolphin: Moving Towards Closed-loop Auto-research through Thinking, Practice, and Feedback",ACL,2025,True,acl_anthology
+turcan2026tusoai,TusoAI: Agentic Optimization for Scientific Methods,ICLR,2026,True,openreview
+Yang_2025_CVPR,NADER: Neural Architecture Design via Multi-Agent Collaboration,CVPR,2025,True,cvf
+ji2025rznas,RZ-NAS: Enhancing LLM-guided Neural Architecture Search via Reflective Zero-Cost Strategy,ICML,2025,True,openreview
+pmlr-v235-zeng24b,tnGPS: Discovering Unknown Tensor Network Structure Search Algorithms via Large Language Models (LLMs),ICML,2024,True,pmlr
+aglietti2025funbo,FunBO: Discovering Acquisition Functions for Bayesian Optimization with FunSearch,ICML,2025,True,openreview
+tao_survey2024,A Survey on Self-Evolution of Large Language Models,arXiv preprint,2024,False,https://arxiv.org/abs/2404.14387
+gao2026a,"A Survey of Self-Evolving Agents: What, When, How, and Where to Evolve on the Path to Artificial Super Intelligence",Transactions on Machine Learning Research,2026,True,supplemental_sources/gao_survey.bib
+fang_survey2025,A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems,arXiv preprint,2025,False,https://arxiv.org/abs/2508.07407
+chen_survey2026,Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops,arXiv preprint,2026,False,https://arxiv.org/abs/2607.07663
+wang2026diving,Diving into Reliable Self-Evolving Agents: A Survey,OpenReview Archive preprint,2026,False,https://openreview.net/forum?id=CGO1hDTHNe
+wu2026ai4ai,"AI4AI Survey: From Long-Horizon Agents to Recursive Self-Improvement---Definitions, Reliable Horizons, and Open Problems",Preprints.org preprint,2026,False,https://www.preprints.org/manuscript/202608.2108
+lee2025selfimproving,Self-Improving Transformers Overcome Easy-to-Hard and Length Generalization Challenges,ICML,2025,True,openreview
+kamoi2024evaluating,Evaluating LLMs at Detecting Errors in LLM Responses,COLM,2024,True,openreview
+chiang-lee-2023-closer,A Closer Look into Using Large Language Models for Automatic Evaluation,Findings of EMNLP,2023,True,acl_anthology
+hsu-etal-2023-gpt,GPT-4 as an Effective Zero-Shot Evaluator for Scientific Figure Captions,Findings of EMNLP,2023,True,acl_anthology
+chen2024are,Are We on the Right Way for Evaluating Large Vision-Language Models?,NeurIPS,2024,True,openreview
+huang2025is,"Is Best-of-N the Best of Them? Coverage, Scaling, and Optimality in Inference-Time Alignment",ICML,2025,True,openreview
+farquhar2025mona,MONA: Myopic Optimization with Non-myopic Approval Can Mitigate Multi-step Reward Hacking,ICML,2025,True,openreview
+zhou2026alignment,Alignment Risks from Capability-Seeking RL Training,ICML,2026,True,openreview
+yu2025selfverifying,Self-Verifying Reflection Helps Transformers with CoT Reasoning,NeurIPS,2025,True,openreview
+wang2025beyond,Beyond Accuracy: Dissecting Mathematical Reasoning for LLMs Under Reinforcement Learning,NeurIPS,2025,True,openreview
+cho2026forget,Forget Forgetting: Continual Learning in a World of Abundant Memory,ICLR,2026,True,openreview
+dorovatas2026position,Position: Modular Memory is the Key to Continual Learning Agents,ICML,2026,True,openreview
+tang2024code,Code Repair with LLMs gives an Exploration-Exploitation Tradeoff,NeurIPS,2024,True,openreview
+wang2026depth,Depth over Fidelity in Fixed-Budget Noisy Evolution Strategies,ICML,2026,True,openreview
+xu2024wizardlm,WizardLM: Empowering Large Pre-Trained Language Models to Follow Complex Instructions,ICLR 2024 poster,2024,True,https://openreview.net/forum?id=CfXh93NDgH
+DBLP:conf/nips/SunSZZCCYG23,Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision,NeurIPS 2023,2023,True,https://openreview.net/forum?id=zIC9C8F8W7
+luo-etal-2024-amr,AMR-Evol: Adaptive Modular Response Evolution Elicits Better Knowledge Distillation for Large Language Models in Code Generation,EMNLP,2024,True,acl_anthology
+Yan20253cmath,S^3cMath: Spontaneous Step-Level Self-Correction Makes Large Language Models Better Mathematical Reasoners,AAAI,2025,True,meta
+pattnaik-etal-2024-enhancing,Enhancing Alignment using Curriculum Learning &amp; Ranked Preferences,Findings of EMNLP,2024,True,acl_anthology
+zhan2026exgrpo,ExGRPO: Learning to Reason from Prior Successes,ICLR,2026,True,openreview
+yan-etal-2025-towards,Towards Efficient CoT Distillation: Self-Guided Rationale Selector for Better Performance with Fewer Rationales,Findings of EMNLP,2025,True,acl_anthology
+Qiu_2025_CVPR,STEP: Enhancing Video-LLMs&#039; Compositional Reasoning by Spatio-Temporal Graph-guided Self-Training,CVPR,2025,True,cvf
+wang-etal-2026-gui0,GUI0: Self-Evolving Foundational GUI Agents in Super App Ecosystems,ACL,2026,True,acl_anthology
+kim-etal-2024-auto,Auto-Intent: Automated Intent Discovery and Self-Exploration for Large Language Model Web Agents,Findings of EMNLP,2024,True,acl_anthology
+zhang-etal-2025-evolvesearch,EvolveSearch: An Iterative Self-Evolving Search Agent,EMNLP,2025,True,acl_anthology
+liu2026spiral,SPIRAL: Self-Play on Zero-Sum Games Incentivizes Reasoning via Multi-Agent Multi-Turn Reinforcement Learning,ICLR,2026,True,openreview
+chen2026learn,Learn from Your Mistakes: Tree-like Self-Play for Secure Code LLMs,ICML,2026,True,openreview
+zhang-etal-2026-agentv,AgentV-RL: Scaling Reward Modeling with Agentic Verifier,Findings of ACL,2026,True,acl_anthology
+chan-etal-2025-boosting,Boosting Policy and Process Reward Models with Monte Carlo Tree Search in Open-Domain QA,Findings of ACL,2025,True,acl_anthology
+hu-etal-2024-serts,SeRTS: Self-Rewarding Tree Search for Biomedical Retrieval-Augmented Generation,Findings of EMNLP,2024,True,acl_anthology
+asai2024selfrag,"Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",ICLR 2024 oral,2024,True,https://openreview.net/forum?id=hSyW5go0v8
+ziakas2026vita,VITA: Zero-Shot Value Functions via Test-Time Adaptation of Vision–Language Models,ICLR,2026,True,openreview
+Han2026uncertainty,Uncertainty-Based Methods for Automated Process Reward Data Construction and Output Aggregation in Mathematical Reasoning,AAAI,2026,True,meta
+ma2024eureka,Eureka: Human-Level Reward Design via Coding Large Language Models,ICLR 2024 poster,2024,True,https://openreview.net/forum?id=IEduRUO55F
+DBLP:conf/iclr/ZhouMHPPCB23,Large Language Models are Human-Level Prompt Engineers,ICLR 2023,2023,True,https://openreview.net/forum?id=YVozFftExy
+yang2024large,Large Language Models as Optimizers,ICLR 2024 poster,2024,True,https://openreview.net/forum?id=Bb4VGOWELI
+guo2024connecting,Connecting Large Language Models with Evolutionary Algorithms Yields Powerful Prompt Optimizers,ICLR 2024 poster,2024,True,https://openreview.net/forum?id=ZG3RaNIsO8
+wan-etal-2023-universal,Universal Self-Adaptive Prompting,EMNLP,2023,True,acl_anthology
+li-etal-2026-learning,Learning from Contrastive Prompts: An Automated Prompt Optimization Framework,Findings of ACL,2026,True,acl_anthology
+singla-etal-2024-dynamic,Dynamic Rewarding with Prompt Optimization Enables Tuning-free Self-Alignment of Language Models,EMNLP,2024,True,acl_anthology
+zhao2025pareto,Pareto Prompt Optimization,ICLR,2025,True,openreview
+khattab2024dspy,DSPy: Compiling Declarative Language Model Calls into State-of-the-Art Pipelines,ICLR 2024 spotlight,2024,True,https://openreview.net/forum?id=sY5N0zY5Od
+gao2024strategyllm,"StrategyLLM: Large Language Models as Strategy Generators, Executors, Optimizers, and Evaluators for Problem Solving",NeurIPS,2024,True,openreview
+liu-etal-2026-adaptive,Adaptive Prompt Structure Factorization: A Framework for Self-Discovering and Optimizing Compositional Prompt Programs,ACL,2026,True,acl_anthology
+Yang2026raas,RAAS: LLM Agentic System Architecture Search with GRPO,CVPR,2026,True,meta
+wei2026evomas,EvoMAS: Heuristics in the Loop—Evolving Smarter Agentic Workflows,ICML,2026,True,openreview
+zheng-etal-2026-meddcr,MedDCR: Learning to Design Agentic Workflows for Medical Coding,Findings of ACL,2026,True,acl_anthology
+Ding_2025,EvoVLMA: Evolutionary Vision-Language Model Adaptation,ACMMM,2025,True,doi
+Liu_2024_CVPR,Language Models as Black-Box Optimizers for Vision-Language Models,CVPR,2024,True,cvf
+lin2026can,Can Language Models Discover Scaling Laws?,ICLR,2026,True,openreview
+zhang2025adaptive,Adaptive Self-improvement LLM Agentic System for ML Library Development,ICML,2025,True,openreview
+zhao2024empowering,Empowering Large Language Model Agents through Action Learning,COLM,2024,True,openreview
+wu2026transductive,Transductive Visual Programming: Evolving Tool Libraries from Experience for Spatial Reasoning,ICLR,2026,True,openreview
+Huang2026meta,META: Meta Evolution of Tool Trajectory Adaptation for Long-Video Understanding,CVPR,2026,True,meta
+ai-etal-2026-tooldna,ToolDNA: Autonomous Evolution of Tool Metadata for Robust Dialogue Agents,Findings of ACL,2026,True,acl_anthology
+wang2024voyager,Voyager: An Open-Ended Embodied Agent with Large Language Models,Accepted by TMLR,2024,True,https://openreview.net/forum?id=ehfRiF0R3a
+zhang-etal-2024-agent,Agent-Pro: Learning to Evolve via Policy-Level Reflection and Optimization,ACL,2024,True,acl_anthology
+wang2025vlrethinker,VL-Rethinker: Incentivizing Self-Reflection of Vision-Language Models with Reinforcement Learning,NeurIPS,2025,True,openreview
+Liu2026failure,From Failure to Feedback: Group Revision Unlocks Hard Cases in Object-Level Grounding,CVPR,2026,True,meta
+huang-etal-2024-queryagent,QueryAgent: A Reliable and Efficient Reasoning Framework with Environmental Feedback based Self-Correction,ACL,2024,True,acl_anthology
+li2025testtime,Test-Time Preference Optimization: On-the-Fly Alignment via Iterative Textual Feedback,ICML,2025,True,openreview
+guo2025seagent,SE-Agent: Self-Evolution Trajectory Optimization in Multi-Step Reasoning with LLM-Based Agents,NeurIPS,2025,True,openreview
+wu-etal-2024-large,Large Language Models Can Self-Correct with Key Condition Verification,EMNLP,2024,True,acl_anthology
+du2025afterburner,Afterburner: Reinforcement Learning Facilitates Self-Improving Code Efficiency Optimization,NeurIPS,2025,True,openreview
+dai2026group,Group Verification-based Policy Optimization for Interactive Coding Agents,ICLR,2026,True,openreview
+brooks2023large,Large Language Models can Implement Policy Iteration,NeurIPS,2023,True,openreview
+park2026posttraining,Post-Training LLMs as Better Decision-Making Agents: A Regret-Minimization Approach,ICML,2026,True,openreview
+chai2026evolvenav,EvolveNav: Proactive Preflection and Self-Evolving Memory for Zero-Shot Object Goal Navigation,arXiv,2026,True,https://arxiv.org/bibtex/2606.18235
+zhang2026genesis,Genesis: Evolving Attack Strategies for LLM Web Agent Red-Teaming,arXiv,2026,True,https://arxiv.org/bibtex/2510.18314
+zhang2025persona,Enhancing Jailbreak Attacks on LLMs via Persona Prompts,arXiv,2026,True,https://arxiv.org/bibtex/2507.22171
+lan2024llm,LLM-Based Agent Society Investigation: Collaboration and Confrontation in Avalon Gameplay,Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing,2024,True,https://aclanthology.org/2024.emnlp-main.7.bib
+zhang2025multimind,MultiMind: Enhancing Werewolf Agents with Multimodal Reasoning and Theory of Mind,Proceedings of the 33rd ACM International Conference on Multimedia,2025,True,https://api.crossref.org/works/10.1145/3746027.3755752/transform/application/x-bibtex
+zhang2025dvm,DVM: Towards Controllable LLM Agents in Social Deduction Games,"ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",2025,True,https://api.crossref.org/works/10.1109/ICASSP49660.2025.10888525/transform/application/x-bibtex
+zhang2026selfharness,Self-Harness: Harnesses That Improve Themselves,arXiv,2026,True,https://arxiv.org/bibtex/2606.09498

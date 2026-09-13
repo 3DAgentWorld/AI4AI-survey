@@ -1,0 +1,995 @@
+{
+  "checked_at": "2026-09-12T07:10:01.534141+00:00",
+  "body_words_approx": 6317,
+  "count_scope": "English prose in the seven active main-text sections, excluding section titles, citations, figures, tables, abstract and references. The user-commented Methods section is excluded. Hyphenated words count as one.",
+  "section_words": {
+    "05_gains_and_limits.tex": 1354,
+    "02_anatomy.tex": 845,
+    "04_changing_improvers.tex": 1972,
+    "06_evidence.tex": 788,
+    "03_improvers.tex": 781,
+    "07_conclusion.tex": 129,
+    "01_introduction.tex": 448
+  },
+  "references": 157,
+  "supplement_references": 109,
+  "references_combined": 195,
+  "bibliography_note": "Main and supplement have independent reference numbering. One official arXiv export was added for Self-Harness. All earlier citations are retained.",
+  "source_export_bibtex": 190,
+  "temporary_bibtex": 5,
+  "bibtex_provenance_scope": "Combined cited set of 195 entries. Self-Harness metadata comes from the official arXiv BibTeX export.",
+  "figures": 4,
+  "tables": 2,
+  "supplement_tables": 3,
+  "main_table_pages": [
+    8,
+    17
+  ],
+  "main_tables_each_fit_one_page": true,
+  "main_table_font": "Normal body text size; ragged-right columns. Table 1 uses continuous method lists and 24%/39% widths for Function/Examples; Contribution takes the remaining width. Table 2 keeps each system name and citation together on one line.",
+  "main_pdf_pages": 35,
+  "supplement_pdf_pages": 16,
+  "prose_dashes": 0,
+  "prose_semicolons": 0,
+  "sentences_over_35_words": [],
+  "build": "Current main manuscript and supplement compiled with pdfLaTeX and BibTeX. All 157 main reference numbers match the inventory. No overfull boxes, missing characters or undefined references.",
+  "undefined_citations": 0,
+  "bibtex_errors": 0,
+  "overfull_horizontal_boxes": 0,
+  "remaining_layout_note": "No overfull boxes or undefined references in the current pdfLaTeX build.",
+  "preserved_user_comments": true,
+  "taxonomy": {
+    "roles": 3,
+    "functional_groups": 15,
+    "methods": 53,
+    "citation_links": 53,
+    "source": "Figures/taxonomy.tex",
+    "figure_page": 4,
+    "minimum_font_size_pt": 7.97,
+    "exports": "Figures/taxonomy.pdf, taxonomy.svg and taxonomy.png",
+    "export_compiler": "pdfLaTeX (TeX Live 2026)",
+    "figure_height_pt": 361.04,
+    "previous_figure_height_pt": 416.44,
+    "figure_height_reduction_percent": 13.3,
+    "body_lines_below_caption": 11,
+    "method_text_width_cm": 5.8,
+    "spacing_note": "Method column narrowed by 0.50 cm. Role-to-function space increased by 0.35 cm, function-to-method space by 0.15 cm; overall figure width retained."
+  },
+  "pdftex_verification": {
+    "compiler": "pdfTeX 1.40.29, TeX Live 2026",
+    "original_error_reproduced": true,
+    "original_error": "Argument of \\label has an extra }.",
+    "fixed_full_manuscript_compiled": true,
+    "main_pdf_pages": 35,
+    "figure_page": 3,
+    "visible_subcategory_labels": 15,
+    "working_figure_citations": 53,
+    "undefined_references": 0,
+    "horizontal_overflow": 0,
+    "bibliography_numbers_match_tectonic": false,
+    "citation_check_note": "Current numbers checked against pdfLaTeX auxiliary output and inventory. Previous Tectonic output predates the current revision."
+  },
+  "main_text_self_containment": {
+    "active_tex_files_checked": 12,
+    "supplementary_mentions_in_active_source": 0,
+    "supplementary_mentions_in_main_pdf": 0,
+    "main_table_notes_below": 0,
+    "table_headers_are_noun_phrases": true,
+    "essential_qualifications_retained": "Role overlap is stated in Table 1 caption and Fig. 1 caption. ADAS is explained as a boundary case in section 4.3."
+  },
+  "table1_layout": {
+    "table_page": 8,
+    "rows": 7,
+    "methods": 17,
+    "table_height_pt": 274.76,
+    "previous_table_height_pt": 345.9,
+    "height_reduction_percent": 20.6,
+    "minimum_font_size_pt": 9.96,
+    "citations_unchanged": true,
+    "undefined_references": 0,
+    "horizontal_overflow": 0,
+    "supplementary_mentions_in_main_pdf": 0,
+    "current_rule_to_rule_height_pt": 274.76
+  },
+  "table2_layout": {
+    "table_page": 17,
+    "systems": 9,
+    "system_names_and_citations_on_same_line": 9,
+    "system_column_width_fraction": 0.26,
+    "citations_unchanged": true,
+    "undefined_references": 0,
+    "horizontal_overflow": 0,
+    "current_rule_to_rule_height_pt": 388.03
+  },
+  "figure2_layout": {
+    "checked_at": "2026-09-11T05:01:05.413745+00:00",
+    "figure_page": 5,
+    "main_pdf_pages": 35,
+    "figure_size_pt": [
+      0.0,
+      0.0,
+      1080.0,
+      999.0
+    ],
+    "approx_printed_height_pt": 342.81,
+    "minimum_printed_font_pt": 6.95,
+    "body_lines_below_caption": 10,
+    "powerpoint_slides": 1,
+    "powerpoint_objects": 467,
+    "editable_text_boxes": 67,
+    "image_instances": 14,
+    "unique_generated_icons": 2,
+    "pptx_render_verified": true,
+    "pptx_pdf_same_text": true,
+    "pptx_pdf_baseline_max_difference_pt": 0.088,
+    "pdf_fonts_embedded": true,
+    "all_required_labels_present": true,
+    "undefined_references": 0,
+    "horizontal_overflow": 0,
+    "style": "Five chapter colors: slate blue, blue, apricot orange, muted plum and teal. Gray-white surfaces, outlined white inner panels, small corner radii and light vector shadows. Colors guide chapter navigation.",
+    "scope_note": "Three overlapping improver roles. Section 4 illustrates self-application through generated resources or proposed changes; v1 is retained for later use. This does not cover every externally updated improver or assume gains or autonomous outer updates.",
+    "top_panel_layout": "Branching role map with three possible contributions converging on an improvee",
+    "fixed_improver_note_inside_top_panel": false,
+    "fixed_improver_note_in_caption_only": false,
+    "all_section_titles_inside_parent_frames": true,
+    "paired_gain_and_failure_icons": 4,
+    "role_palette_matches_taxonomy": false,
+    "outlined_inner_panels": 6,
+    "editable_vector_shadows": true,
+    "section3_and_section4_separate_rows": true,
+    "section_parent_child_labels_consistent": true,
+    "large_section_frames": 5,
+    "chapter_border_colors": {
+      "2": "98ACBF",
+      "3": "82B4EA",
+      "4": "EDA464",
+      "5": "B3A0BD",
+      "6": "83B5AB"
+    },
+    "chapter_colors_are_navigation_only": true,
+    "section_and_subsection_labels_bold": true,
+    "section3_visible_icon_heights_aligned": true,
+    "section4_self_application_sequence": "v0 -> experience/feedback/changes -> v1",
+    "section5_divider_shifted_left": true,
+    "section_title_size_px": 37,
+    "section_label_size_px": 29,
+    "section_font": "Arial Bold",
+    "section3_examples_beside_output_icons": true,
+    "section4_elbow_arrows_removed": true,
+    "ai_improver_avatar_instances": 13,
+    "role_specific_vector_badges": 0,
+    "all_role_avatars_share_same_base": true,
+    "manuscript_and_figure_section_titles": {
+      "2": "Anatomy of AI for AI",
+      "3": "Foundation Models and Agents as Improvers",
+      "4": "When the Improver Becomes the Improvee",
+      "5": "Gains and Failure Modes",
+      "6": "Evaluation and Outlook"
+    },
+    "manuscript_and_figure_subsection_titles": {
+      "3.1": "Training Experience",
+      "3.2": "Evaluation Feedback",
+      "3.3": "AI System Design",
+      "4.1": "Experience Generators",
+      "4.2": "Evaluation Mechanisms",
+      "4.3": "Rules and Programs"
+    },
+    "all_numbered_titles_match_ignoring_case": true,
+    "body_prose_and_citations_unchanged": false,
+    "diagram_flows_and_labels_preserved": false,
+    "caption_word_count": 52,
+    "caption_lines": 4,
+    "kept_change_label": "Changes kept",
+    "plain_english_labels_checked": true,
+    "diagram_flows_preserved": true
+  },
+  "caption_edit": {
+    "checked_at": "2026-09-10T15:03:14.876211+00:00",
+    "caption_word_counts": {
+      "figure1": 51,
+      "figure2": 52,
+      "figure3": 51
+    },
+    "version_shorthand_in_prose_or_captions": 0,
+    "version_labels_retained_inside_figures": true,
+    "figure_exports_unchanged": true,
+    "body_prose_outside_captions_unchanged": true
+  },
+  "method_citation_placement": {
+    "checked_at": "2026-09-10T15:11:11.922989+00:00",
+    "sentences_changed": 72,
+    "citations_repositioned": 90,
+    "citation_keys_and_order_preserved": true,
+    "general_supporting_citations_remain_with_their_claims": true,
+    "caption_text_unchanged": true,
+    "minor_prose_adjustments": [
+      "Introduce ADAS in parentheses to avoid first-page overflow.",
+      "Rephrase the SPARKLE possessive so its citation follows the name."
+    ]
+  },
+  "research_citation_placement": {
+    "checked_at": "2026-09-10T15:24:19.636016+00:00",
+    "research_phrases_updated": 31,
+    "sentences_changed": 28,
+    "prose_wording_unchanged": true,
+    "citation_keys_and_order_preserved": true
+  },
+  "plain_section_terms": {
+    "checked_at": "2026-09-10T15:42:05.761570+00:00",
+    "subsection_titles": {
+      "2.2": "Roles, Feedback and Updates",
+      "5.3": "Memory, Archives and Error Accumulation",
+      "6.1": "Evaluating Updated Improvers",
+      "6.2": "Future Directions"
+    },
+    "retention_and_reuse_distinguished": true,
+    "evidence_kept_for_research_support": true,
+    "evaluation_does_not_assume_improvement": true,
+    "figure_labels_updated": {
+      "figure2": "Changes kept",
+      "figure4": "Kept in v1"
+    },
+    "figure_caption_uses_updated_improver": true,
+    "citation_keys_order_and_numbers_unchanged": true
+  },
+  "figure4_layout": {
+    "checked_at": "2026-09-11T05:01:05.413745+00:00",
+    "figure_page": 16,
+    "main_pdf_pages": 35,
+    "figure_size_pt": [
+      0.0,
+      0.0,
+      1080.0,
+      750.0
+    ],
+    "minimum_printed_font_pt": 6.95,
+    "body_lines_below_caption": 10,
+    "powerpoint_slides": 1,
+    "powerpoint_objects": 201,
+    "editable_text_boxes": 34,
+    "image_instances": 6,
+    "unique_generated_icons": 3,
+    "pptx_render_verified": true,
+    "all_required_labels_present": true,
+    "undefined_references": 0,
+    "horizontal_overflow": 0,
+    "main_prose_and_user_comments_preserved": true,
+    "style": "Black-outlined editorial pictograms, warm ochre and teal panels, block arrows and dotted experimental branches.",
+    "pptx_pdf_baseline_max_difference_pt": 0.076,
+    "approx_printed_height_pt": 257.37,
+    "removed_corner_labels": [
+      "Structural evidence",
+      "Effect evidence"
+    ],
+    "plain_language_labels": {
+      "Retain": "Update",
+      "Match both branches": "Use the same conditions",
+      "Same target state": "Same starting improvee",
+      "Target A/B": "Improvee A/B",
+      "Repeat with other target AIs": "Repeat with other improvees",
+      "outcome_group": "Measure in each comparison",
+      "Later AI update": "Next update / for an improvee"
+    },
+    "caption_clarifies_repetition_and_measures": true,
+    "repeat_icon": "Two clockwise curved arrows, each formed as a single vector shape.",
+    "spacing_checks": [
+      {
+        "file": "Figures/evidence_design.pdf",
+        "all_labels_present": true,
+        "condition_header_to_budget_icon_gap_pt": 58.96
+      },
+      {
+        "file": "evidence_design.pdf",
+        "all_labels_present": true,
+        "condition_header_to_budget_icon_gap_pt": 58.91
+      }
+    ],
+    "improvee_defined_in_caption": false,
+    "final_output_label": "Improver output / For the improvee",
+    "first_output_label": "Improver changes / Kept in v1",
+    "panel_b_visual_unchanged": false,
+    "pptx_pdf_same_text": true,
+    "pdf_fonts_embedded": true,
+    "ai_improver_avatar_instances": 4,
+    "shared_improver_avatar_with_figure2": true,
+    "avatar_side_lengths_px": [
+      148,
+      148,
+      112,
+      112
+    ],
+    "all_figure_labels_unchanged": false,
+    "figure2_exports_unchanged": false,
+    "unchanged_regions_pixel_identical": true,
+    "distinct_change_and_output_graphics": true,
+    "common_improvee_label": "Same improvee",
+    "caption_explains_identical_copies": true,
+    "wording_changes": {
+      "Same target state": "Same improvee",
+      "Later AI update": "Improver output / For the improvee"
+    },
+    "caption_word_count": 51,
+    "caption_lines": 4,
+    "improvee_definition_location": "Section 2.1 Scope and Objects",
+    "caption_title": "Two questions for evaluating an updated improver.",
+    "renumbered_from_figure": 3,
+    "visible_graphic_unchanged": true,
+    "plain_english_labels_checked": true,
+    "plain_english_display_labels": {
+      "fixed_branch": "Fixed improver",
+      "available_information": "Available feedback"
+    }
+  },
+  "figure3_layout": {
+    "checked_at": "2026-09-11T05:01:05.413745+00:00",
+    "source": "Figures/draw_failure_paths.py",
+    "figure_page": 13,
+    "figure_size_pt": [
+      0.0,
+      0.0,
+      1080.0,
+      693.0
+    ],
+    "minimum_printed_font_pt": 6.95,
+    "approx_printed_height_pt": 237.8,
+    "body_lines_below_caption": 19,
+    "powerpoint_slides": 1,
+    "powerpoint_objects": 101,
+    "editable_text_boxes": 35,
+    "image_instances": 6,
+    "unique_reused_raster_assets": 1,
+    "new_generated_raster_assets": 0,
+    "pptx_render_verified": true,
+    "pptx_pdf_same_text": true,
+    "pdf_fonts_embedded": true,
+    "text_within_pdf_canvas": true,
+    "conditional_synthesis_without_measured_outcomes": true,
+    "possible_interventions": 0,
+    "shared_ai_improver_avatar": true,
+    "panels": [
+      "Training data lose variety",
+      "Wrong answers receive approval",
+      "A saved rule no longer fits the task"
+    ],
+    "caption_title": "How errors and bias can carry into later rounds.",
+    "caption_word_count": 43,
+    "caption_lines": 3,
+    "style": "Shared AI-agent illustrations, task names, speech bubbles and a saved rule between earlier and later requests. Compact panels with thin rounded borders in blue-gray, ochre and plum. Interventions are discussed in the main text.",
+    "selection_keeps_only_the_successful_task": true,
+    "concrete_examples": {
+      "a": "Sorting succeeds while route finding and date parsing fail; only sorting enters training.",
+      "b": "The shared model approves its deliberately wrong answer 6 × 7 = 48, which then enters training.",
+      "c": "A lowest-fare rule selects a one-stop flight again for a later nonstop request."
+    },
+    "judgment_and_memory_distinguished": true,
+    "earlier_memory_task_choice_succeeds": true,
+    "memory_scene_does_not_show_weight_training": true,
+    "illustrative_examples_identified_in_caption": true,
+    "label_cleanup": {
+      "removed_repeated_heading": "Possible interventions",
+      "removed_instances": 3,
+      "scenario_headings": [
+        "Only familiar tasks pass the tests",
+        "The model judges its own answer",
+        "Same rule, different task"
+      ],
+      "scenario_heading_size_px": 30,
+      "scenario_headings_bold": true,
+      "scenario_headings_use_panel_color": true,
+      "selected_material_label": "Training data",
+      "intervention_actions_and_arrows_preserved": false
+    },
+    "intervention_removal": {
+      "actions_removed": [
+        "Mix in real or earlier data",
+        "Verify with a calculator",
+        "Check whether the rule still applies"
+      ],
+      "associated_boxes_symbols_and_arrows_removed": true,
+      "figure_callout_and_caption_updated": true,
+      "canvas_height_before_px": 1080,
+      "canvas_height_after_px": 924,
+      "height_reduction_percent": 14.4,
+      "remaining_text_sizes_preserved": true
+    }
+  },
+  "new_failure_figure": {
+    "checked_at": "2026-09-10T15:58:12.134955+00:00",
+    "manuscript_callout_added": true,
+    "existing_overview_and_evaluation_graphics_unchanged": true,
+    "bibliography_keys_order_and_numbers_unchanged": true,
+    "figure_numbers": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "caption_panel_labels": {
+    "checked_at": "2026-09-11T04:17:44.619455+00:00",
+    "format": "Bold parenthesized lowercase letters followed by a space, without a comma.",
+    "figures": [
+      {
+        "figure": 3,
+        "page": 13,
+        "markers": [
+          "(a)",
+          "(b)",
+          "(c)"
+        ],
+        "caption_lines": 3
+      },
+      {
+        "figure": 4,
+        "page": 16,
+        "markers": [
+          "(a)",
+          "(b)"
+        ],
+        "caption_lines": 4
+      }
+    ],
+    "figure_artwork_unchanged": true
+  },
+  "abstract_words_approx": 129,
+  "abstract_clarity": {
+    "checked_at": "2026-09-11T04:33:02.663137+00:00",
+    "scope_sentence": "We examine how foundation models and agents built on them improve models and agent systems.",
+    "overlap_explained_as": "A system may combine these paths.",
+    "research_agenda_replaced_by": "future research",
+    "material_outside_abstract_unchanged": true
+  },
+  "plain_english_revision": {
+    "checked_at": "2026-09-11T05:01:05.413745+00:00",
+    "stage": "complete",
+    "scope": "Abstract, all seven active main sections, figure captions, two main tables and displayed labels in Figs. 1–4. User-commented Methods and declarations preserved.",
+    "contextual_replacements": 214,
+    "technical_terms_explained": [
+      "policy",
+      "reasoning traces",
+      "checkpoint",
+      "curriculum",
+      "replay",
+      "critic model",
+      "rubric",
+      "proxy reward",
+      "evaluation drift",
+      "independent tests"
+    ],
+    "ordinary_wording": "Prefer common words, explicit agents and objects, and direct descriptions of causes and comparisons.",
+    "citation_keys_order_and_numbers_preserved": true,
+    "reported_percentages_preserved": true,
+    "method_names_and_bibliography_preserved": true,
+    "claims_and_qualifications_reviewed_in_context": true,
+    "no_mechanical_word_list_substitution": true,
+    "body_words_before": 5897,
+    "body_words_after": 6099,
+    "sentences_over_35_words": 0,
+    "commented_material_preserved": true,
+    "diagram_geometry_preserved": true,
+    "figure_label_changes": {
+      "figure2": {
+        "Trajectories": "Interactions"
+      },
+      "figure4": {
+        "Frozen improver": "Fixed improver",
+        "Feedback access": "Available feedback"
+      }
+    }
+  },
+  "requested_citation_revision": {
+    "checked_at": "2026-09-11T07:04:15.796570+00:00",
+    "body_words": 6099,
+    "prose_identical_to_before_citation_additions": true,
+    "added_words": 0,
+    "added_sentences": 0,
+    "retained_new_references": 6,
+    "removed_new_references": [
+      "chai2025causalmace",
+      "zhang2026camwolf",
+      "zhang2026orchestrating",
+      "zheng2026stackelberg"
+    ],
+    "main_references": 156,
+    "supplement_references": 109,
+    "combined_references": 194,
+    "source_export_bibtex": 189,
+    "temporary_bibtex": 5,
+    "main_pdf_pages": 35,
+    "supplement_pdf_pages": 16,
+    "undefined_citations": 0,
+    "overflow": 0,
+    "labels": {
+      "fig:taxonomy": [
+        1,
+        3
+      ],
+      "fig:overview": [
+        2,
+        4
+      ],
+      "tab:landscape": [
+        1,
+        8
+      ],
+      "fig:failure_paths": [
+        3,
+        13
+      ],
+      "fig:evidence": [
+        4,
+        16
+      ],
+      "tab:evidence": [
+        2,
+        17
+      ]
+    }
+  },
+  "process_revision": {
+    "checked_at": "2026-09-12T04:09:04.385704+00:00",
+    "stage": "complete",
+    "body_words": 6316,
+    "abstract_words": 106,
+    "section_words": {
+      "01_introduction.tex": 451,
+      "02_anatomy.tex": 845,
+      "03_improvers.tex": 776,
+      "04_changing_improvers.tex": 1967,
+      "05_gains_and_limits.tex": 1354,
+      "06_evidence.tex": 788,
+      "07_conclusion.tex": 135
+    },
+    "main_references": 157,
+    "supplement_references": 109,
+    "combined_references": 195,
+    "source_export_bibtex": 190,
+    "temporary_bibtex": 5,
+    "main_pdf_pages": 35,
+    "supplement_pdf_pages": 16,
+    "labels": {
+      "fig:taxonomy": [
+        1,
+        4
+      ],
+      "fig:overview": [
+        2,
+        5
+      ],
+      "tab:landscape": [
+        1,
+        8
+      ],
+      "fig:failure_paths": [
+        3,
+        13
+      ],
+      "fig:evidence": [
+        4,
+        16
+      ],
+      "tab:evidence": [
+        2,
+        17
+      ]
+    },
+    "process_definition": true,
+    "survey_scope_separated": true,
+    "official_source_added": "zhang2026selfharness",
+    "preserved_user_comments": true,
+    "preserved_all_prior_references": true,
+    "undefined_citations": 0,
+    "overflow": 0,
+    "prose_dashes": 0,
+    "prose_semicolons": 0,
+    "sentences_over_35_words": [],
+    "future_questions": [
+      "When does improvement become recursive?",
+      "Is there an improvement scaling law?",
+      "What limits the improvement horizon?",
+      "Can an improver generalize across improvees?"
+    ],
+    "scaling_law_treated_as_open_question": true,
+    "horizon_measured_in_update_rounds": true,
+    "main_tables_visually_checked": true,
+    "new_reference_source": "https://arxiv.org/bibtex/2606.09498",
+    "overview_graphic_still_matches_section_titles": true,
+    "changes_to_definitions_abstract_introduction_outlook_conclusion_reviewed_together": true
+  },
+  "page_top_placement": {
+    "checked_at": "2026-09-12T04:16:06.918519+00:00",
+    "main_figure_count": 4,
+    "main_table_count": 2,
+    "supplement_table_count": 3,
+    "all_start_at_page_top": true,
+    "positions": [
+      {
+        "document": "main",
+        "label": "fig:taxonomy",
+        "number": "1",
+        "page": 4,
+        "first_text_y_pt": 79.11,
+        "no_prose_above": true
+      },
+      {
+        "document": "main",
+        "label": "fig:overview",
+        "number": "2",
+        "page": 5,
+        "first_text_y_pt": 80.2,
+        "no_prose_above": true
+      },
+      {
+        "document": "main",
+        "label": "tab:landscape",
+        "number": "1",
+        "page": 8,
+        "first_text_y_pt": 74.1,
+        "no_prose_above": true
+      },
+      {
+        "document": "main",
+        "label": "fig:failure_paths",
+        "number": "3",
+        "page": 13,
+        "first_text_y_pt": 80.95,
+        "no_prose_above": true
+      },
+      {
+        "document": "main",
+        "label": "fig:evidence",
+        "number": "4",
+        "page": 16,
+        "first_text_y_pt": 80.43,
+        "no_prose_above": true
+      },
+      {
+        "document": "main",
+        "label": "tab:evidence",
+        "number": "2",
+        "page": 17,
+        "first_text_y_pt": 74.1,
+        "no_prose_above": true
+      },
+      {
+        "document": "sn-supplement",
+        "label": "tab:locations",
+        "number": "S1",
+        "page": 2,
+        "first_text_y_pt": 65.6,
+        "no_prose_above": true
+      },
+      {
+        "document": "sn-supplement",
+        "label": "tab:full-landscape",
+        "number": "S2",
+        "page": 3,
+        "first_text_y_pt": 66.85,
+        "no_prose_above": true
+      },
+      {
+        "document": "sn-supplement",
+        "label": "tab:full-evidence",
+        "number": "S3",
+        "page": 6,
+        "first_text_y_pt": 66.85,
+        "no_prose_above": true
+      }
+    ],
+    "supplement_continued_table_pages": [
+      4,
+      5,
+      7
+    ],
+    "prose_and_captions_unchanged": true,
+    "citation_numbers_unchanged": true,
+    "main_pdf_pages": 35,
+    "supplement_pdf_pages": 16,
+    "undefined_citations": 0,
+    "overfull_boxes": 0
+  },
+  "abstract_original_body_revision": {
+    "checked_at": "2026-09-12T04:34:44.481833+00:00",
+    "original_abstract_words": 129,
+    "revised_abstract_words": 129,
+    "original_middle_sentences_preserved": true,
+    "opening": "AI for AI concerns processes that use AI to improve AI systems and their development methods.",
+    "closing": "We then ask when improvement becomes recursive, how gains scale with resources, how long progress can continue and whether improvers generalize across AI systems.",
+    "outside_abstract_unchanged": true,
+    "citation_numbers_unchanged": true,
+    "main_pdf_pages": 35,
+    "figure_and_table_positions": [
+      {
+        "label": "fig:taxonomy",
+        "page": 4,
+        "at_page_top": true
+      },
+      {
+        "label": "fig:overview",
+        "page": 5,
+        "at_page_top": true
+      },
+      {
+        "label": "tab:landscape",
+        "page": 8,
+        "at_page_top": true
+      },
+      {
+        "label": "fig:failure_paths",
+        "page": 13,
+        "at_page_top": true
+      },
+      {
+        "label": "fig:evidence",
+        "page": 16,
+        "at_page_top": true
+      },
+      {
+        "label": "tab:evidence",
+        "page": 17,
+        "at_page_top": true
+      }
+    ],
+    "undefined_citations": 0,
+    "overfull_boxes": 0
+  },
+  "abstract_process_bridge_revision": {
+    "checked_at": "2026-09-12T04:41:14.961817+00:00",
+    "abstract_words": 131,
+    "changed_sentence": "This Review examines how AI contributes to these improvement processes, including model learning and changes to agent software.",
+    "only_one_manuscript_sentence_changed": true,
+    "definition_scope_and_process_sequence_reviewed": true,
+    "original_path_and_condition_sentences_preserved": true,
+    "body_and_citations_unchanged": true,
+    "main_pdf_pages": 35,
+    "figure_and_table_positions": [
+      {
+        "label": "fig:taxonomy",
+        "page": 4,
+        "at_page_top": true
+      },
+      {
+        "label": "fig:overview",
+        "page": 5,
+        "at_page_top": true
+      },
+      {
+        "label": "tab:landscape",
+        "page": 8,
+        "at_page_top": true
+      },
+      {
+        "label": "fig:failure_paths",
+        "page": 13,
+        "at_page_top": true
+      },
+      {
+        "label": "fig:evidence",
+        "page": 16,
+        "at_page_top": true
+      },
+      {
+        "label": "tab:evidence",
+        "page": 17,
+        "at_page_top": true
+      }
+    ],
+    "undefined_citations": 0,
+    "overfull_boxes": 0
+  },
+  "abstract_concrete_changes_revision": {
+    "checked_at": "2026-09-12T04:46:05.592824+00:00",
+    "abstract_words": 133,
+    "replaced": "agent software",
+    "replacement": "prompts, tools and code",
+    "only_one_prose_phrase_changed": true,
+    "title_page_height_adjustment_pt": 1,
+    "citation_numbers_unchanged": true,
+    "main_pdf_pages": 35,
+    "figure_and_table_positions": [
+      {
+        "label": "fig:taxonomy",
+        "page": 4,
+        "at_page_top": true
+      },
+      {
+        "label": "fig:overview",
+        "page": 5,
+        "at_page_top": true
+      },
+      {
+        "label": "tab:landscape",
+        "page": 8,
+        "at_page_top": true
+      },
+      {
+        "label": "fig:failure_paths",
+        "page": 13,
+        "at_page_top": true
+      },
+      {
+        "label": "fig:evidence",
+        "page": 16,
+        "at_page_top": true
+      },
+      {
+        "label": "tab:evidence",
+        "page": 17,
+        "at_page_top": true
+      }
+    ],
+    "undefined_citations": 0,
+    "overfull_boxes": 0
+  },
+  "abstract_harness_engineering_revision": {
+    "checked_at": "2026-09-12T04:59:34.495467+00:00",
+    "abstract_words": 129,
+    "replaced": "changes to prompts, tools and code",
+    "replacement": "harness engineering",
+    "only_one_prose_phrase_changed": true,
+    "standard_title_page_height_restored": true,
+    "citation_numbers_unchanged": true,
+    "main_pdf_pages": 35,
+    "figure_and_table_positions": [
+      {
+        "label": "fig:taxonomy",
+        "page": 4,
+        "at_page_top": true
+      },
+      {
+        "label": "fig:overview",
+        "page": 5,
+        "at_page_top": true
+      },
+      {
+        "label": "tab:landscape",
+        "page": 8,
+        "at_page_top": true
+      },
+      {
+        "label": "fig:failure_paths",
+        "page": 13,
+        "at_page_top": true
+      },
+      {
+        "label": "fig:evidence",
+        "page": 16,
+        "at_page_top": true
+      },
+      {
+        "label": "tab:evidence",
+        "page": 17,
+        "at_page_top": true
+      }
+    ],
+    "undefined_citations": 0,
+    "overfull_boxes": 0
+  },
+  "harness_coherence_revision": {
+    "checked_at": "2026-09-12T05:04:35.628152+00:00",
+    "body_words": 6317,
+    "section_words": {
+      "05_gains_and_limits.tex": 1354,
+      "02_anatomy.tex": 845,
+      "04_changing_improvers.tex": 1972,
+      "06_evidence.tex": 788,
+      "03_improvers.tex": 781,
+      "07_conclusion.tex": 129,
+      "01_introduction.tex": 448
+    },
+    "changed_passages": 5,
+    "edits": [
+      [
+        "sections/01_introduction.tex",
+        "The process can change through model learning, changes to the surrounding software, or both.",
+        "The process can change through model learning, harness engineering, or both."
+      ],
+      [
+        "sections/03_improvers.tex",
+        "The model thus helps build a working system.",
+        "AI-assisted changes to prompts, tools and agent workflows are forms of harness engineering."
+      ],
+      [
+        "sections/04_changing_improvers.tex",
+        "The language model remains fixed.",
+        "The agent's harness changes while its model weights remain fixed."
+      ],
+      [
+        "sections/07_conclusion.tex",
+        "Updates to model weights and changes to an agent's surrounding software both fit this view.",
+        "Model learning and harness engineering both fit this view."
+      ],
+      [
+        "sections/06_evidence.tex",
+        "including different model families and tool setups.",
+        "including different model families and agent harnesses."
+      ]
+    ],
+    "abstract_unchanged": true,
+    "existing_harness_definition_retained": true,
+    "roles_and_harness_changes_not_treated_as_competing_taxonomies": true,
+    "citation_numbers_unchanged": true,
+    "bibliography_unchanged": true,
+    "main_pdf_pages": 35,
+    "figure_and_table_positions": [
+      {
+        "label": "fig:taxonomy",
+        "page": 4,
+        "at_page_top": true
+      },
+      {
+        "label": "fig:overview",
+        "page": 5,
+        "at_page_top": true
+      },
+      {
+        "label": "tab:landscape",
+        "page": 8,
+        "at_page_top": true
+      },
+      {
+        "label": "fig:failure_paths",
+        "page": 13,
+        "at_page_top": true
+      },
+      {
+        "label": "fig:evidence",
+        "page": 16,
+        "at_page_top": true
+      },
+      {
+        "label": "tab:evidence",
+        "page": 17,
+        "at_page_top": true
+      }
+    ],
+    "undefined_citations": 0,
+    "overfull_boxes": 0
+  },
+  "narrative_citation_revision": {
+    "checked_at": "2026-09-12T07:10:01.534141+00:00",
+    "changed_occurrences": 1,
+    "rendered_citation": "Gerstgrasser et al. [110]",
+    "citation_page": 12,
+    "automatic_numeric_citation": true,
+    "bibliography_style_unchanged": true,
+    "remaining_and_colleagues_in_main_prose": 0,
+    "citation_numbers_unchanged": true,
+    "body_words_unchanged": true,
+    "main_pdf_pages": 35,
+    "figure_and_table_positions": [
+      {
+        "label": "fig:taxonomy",
+        "page": 4,
+        "at_page_top": true
+      },
+      {
+        "label": "fig:overview",
+        "page": 5,
+        "at_page_top": true
+      },
+      {
+        "label": "tab:landscape",
+        "page": 8,
+        "at_page_top": true
+      },
+      {
+        "label": "fig:failure_paths",
+        "page": 13,
+        "at_page_top": true
+      },
+      {
+        "label": "fig:evidence",
+        "page": 16,
+        "at_page_top": true
+      },
+      {
+        "label": "tab:evidence",
+        "page": 17,
+        "at_page_top": true
+      }
+    ],
+    "undefined_citations": 0,
+    "overfull_boxes": 0
+  }
+}

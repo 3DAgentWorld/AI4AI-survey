@@ -1,0 +1,244 @@
+[
+  {
+    "citation_key": "hu2025automated",
+    "name": "ADAS",
+    "pdf_pages": [
+      6,
+      7,
+      8,
+      10
+    ],
+    "source_url": "https://openreview.net/pdf?id=t9U3LW7JVX",
+    "source_pdf_sha256": "993e4211a244e2f4ad911e01427a60a16875f340fe1aaf3d125a7a71cf28c3fe",
+    "check_topic": "Fixed meta-agent, growing archive and discovered-agent transfer",
+    "check_scope": "targeted assistant source check, not independent human verification or experimental replication",
+    "main_reference_number": 3,
+    "supplement_reference_number": 1
+  },
+  {
+    "citation_key": "zelikman2022star",
+    "name": "STaR",
+    "pdf_pages": [
+      2,
+      4,
+      7,
+      8
+    ],
+    "source_url": "https://openreview.net/pdf?id=_3ELRdg2sgI",
+    "source_pdf_sha256": "15caf0d752dea660cce54a877c0be792c51e5b8484f56fcc467225457b09af79",
+    "check_topic": "Generator replacement, rationalization and training restart",
+    "check_scope": "targeted assistant source check, not independent human verification or experimental replication",
+    "main_reference_number": 4,
+    "supplement_reference_number": 2
+  },
+  {
+    "citation_key": "pmlr-v235-yuan24d",
+    "name": "Self-Rewarding LMs",
+    "pdf_pages": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source_url": "https://proceedings.mlr.press/v235/yuan24d.html",
+    "source_pdf_sha256": "e6b39ea13e3482ea54852d32751281e3af1c9a108f42540753f7b2b5362e06dc",
+    "check_topic": "Training sequence, held-out judgment checks and response evaluation",
+    "check_scope": "targeted assistant source check, not independent human verification or experimental replication",
+    "main_reference_number": 5,
+    "supplement_reference_number": 3
+  },
+  {
+    "citation_key": "pmlr-v235-fernando24a",
+    "name": "Promptbreeder",
+    "pdf_pages": [
+      3,
+      4,
+      16,
+      17
+    ],
+    "source_url": "https://proceedings.mlr.press/v235/fernando24a.html",
+    "source_pdf_sha256": "48e3401eb16d5ade80a6e5b8f482308746a51225a6c1417b38f59573eb90b9e1",
+    "check_topic": "Mutation-prompt evolution and its evaluation-count ablation",
+    "check_scope": "targeted assistant source check, not independent human verification or experimental replication",
+    "main_reference_number": 6,
+    "supplement_reference_number": 4
+  },
+  {
+    "citation_key": "zhang2026darwin",
+    "name": "Darwin Gödel Machine",
+    "pdf_pages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      31,
+      32
+    ],
+    "source_url": "https://openreview.net/forum?id=pUpzQZTvGY",
+    "source_pdf_sha256": "6efb95cbde82c52d4e5e219e7746b05890f335c834a9b9d095258f7442b5da7a",
+    "check_topic": "Agent modification, archive control, fixed-modifier control and costs",
+    "check_scope": "targeted assistant source check, not independent human verification or experimental replication",
+    "main_reference_number": 7,
+    "supplement_reference_number": 5
+  },
+  {
+    "citation_key": "hazra2025revolve",
+    "name": "REvolve",
+    "pdf_pages": [
+      4,
+      7,
+      8,
+      9
+    ],
+    "source_url": "https://openreview.net/pdf?id=cJPUpL8mOw",
+    "source_pdf_sha256": "5675b4b6c30388744c1a22ea26f691238fd6b6e6039adc0e435b1d94e5ce7a25",
+    "check_topic": "Reward-program evolution, fixed designer and search comparisons",
+    "check_scope": "targeted assistant source check, not independent human verification or experimental replication",
+    "main_reference_number": 45,
+    "supplement_reference_number": 6
+  },
+  {
+    "citation_key": "xu2025metatextgrad",
+    "name": "metaTextGrad",
+    "pdf_pages": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "source_url": "https://openreview.net/pdf?id=10s01YrlKp",
+    "source_pdf_sha256": "7b4774bc0441cba08c88ed9adbaeb9c1df011fe18ad45a3b42b374a2e30bb710",
+    "check_topic": "Learned optimizer components, fixed meta-optimizer and reuse",
+    "check_scope": "targeted assistant source check, not independent human verification or experimental replication",
+    "main_reference_number": 62,
+    "supplement_reference_number": 7
+  },
+  {
+    "citation_key": "zelikman2024selftaught",
+    "name": "STOP",
+    "pdf_pages": [
+      4,
+      5,
+      6,
+      7,
+      10
+    ],
+    "source_url": "https://openreview.net/pdf?id=46Zgqo4QIU",
+    "source_pdf_sha256": "9b8133d18c5d6a6089b79507459ec441fbc88ca32fc78c0c7a11cef6df2ed292",
+    "check_topic": "Self-application, repeated runs and optimizer transfer",
+    "check_scope": "targeted assistant source check, not independent human verification or experimental replication",
+    "main_reference_number": 63,
+    "supplement_reference_number": 8
+  },
+  {
+    "citation_key": "he-etal-2025-openwebvoyager",
+    "name": "OpenWebVoyager",
+    "pdf_pages": [
+      2,
+      5,
+      6,
+      8
+    ],
+    "source_url": "https://aclanthology.org/2025.acl-long.1336.pdf",
+    "source_pdf_sha256": "9a368ff5f271db459a644aa050d12c21af04fa762340f36923e184241cd040cf",
+    "check_topic": "Three exploration rounds, fixed filtering and retained imitation data",
+    "check_scope": "targeted assistant source check, not independent human verification or experimental replication",
+    "main_reference_number": 30,
+    "supplement_reference_number": 9
+  },
+  {
+    "citation_key": "shao2026dr",
+    "name": "DR Tulu / RLER",
+    "pdf_pages": [
+      3,
+      5,
+      8
+    ],
+    "source_url": "https://openreview.net/pdf?id=97NEP1pyS3",
+    "source_pdf_sha256": "3a45b394d5257def9d8fdd785d9df540ba52f3f4c9bd2aef4654d7889948b877",
+    "check_topic": "Rubric text and buffer updates, with fixed generator and judge weights",
+    "check_scope": "targeted assistant source check, not independent human verification or experimental replication",
+    "main_reference_number": 47,
+    "supplement_reference_number": 10
+  },
+  {
+    "citation_key": "dong2025stp",
+    "name": "STP",
+    "pdf_pages": [
+      2,
+      3,
+      5
+    ],
+    "source_url": "https://openreview.net/pdf?id=zWArMedNuW",
+    "source_pdf_sha256": "7015eef879087572d3d028e462a0429999801a268046dbad11ccd797cdd5b72a",
+    "check_topic": "Conjecturing, proving, proof buffer and sampling comparison",
+    "check_scope": "targeted assistant source check, not independent human verification or experimental replication",
+    "main_reference_number": 23,
+    "supplement_reference_number": 11
+  },
+  {
+    "citation_key": "zhao2025absolute",
+    "name": "Absolute Zero",
+    "pdf_pages": [
+      8,
+      9
+    ],
+    "source_url": "https://openreview.net/pdf?id=neZSGqhxDa",
+    "source_pdf_sha256": "847f652e0f23d242fb02c070467a964fb290c00d2233d50791abccf1db5501da",
+    "check_topic": "Shared proposer and solver weights, and proposer-loss ablation",
+    "check_scope": "targeted assistant source check, not independent human verification or experimental replication",
+    "main_reference_number": 24,
+    "supplement_reference_number": 12
+  },
+  {
+    "citation_key": "pan2026advevomarl",
+    "name": "AdvEvo-MARL",
+    "pdf_pages": [
+      4,
+      7,
+      8,
+      12,
+      13
+    ],
+    "source_url": "https://openreview.net/pdf?id=5D3ZblXmW2",
+    "source_pdf_sha256": "1fd946596723e986db6aa0db5e9a237448cb9db1c24938fc0667e015e5c9bce9",
+    "check_topic": "Changing attack and defense policies, with a static-data comparison",
+    "check_scope": "targeted assistant source check, not independent human verification or experimental replication",
+    "main_reference_number": 32,
+    "supplement_reference_number": 13
+  },
+  {
+    "citation_key": "zhou2024calibrated",
+    "name": "Calibrated Self-Rewarding VLMs",
+    "pdf_pages": [
+      5,
+      6,
+      7
+    ],
+    "source_url": "https://openreview.net/pdf?id=nXYedmTf1T",
+    "source_pdf_sha256": "8ce3f10d480439c323c8e8f0352abf19cf284a44f6194790d50f1dc52f427cc9",
+    "check_topic": "Shared generation and scoring weights, and visual calibration",
+    "check_scope": "targeted assistant source check, not independent human verification or experimental replication",
+    "main_reference_number": 38,
+    "supplement_reference_number": 14
+  },
+  {
+    "citation_key": "wang2026huxleygodel",
+    "name": "Huxley-Gödel Machine",
+    "pdf_pages": [
+      3,
+      7,
+      8,
+      10
+    ],
+    "source_url": "https://openreview.net/pdf?id=T0EiEuhOOL",
+    "source_pdf_sha256": "4e486b7f5808fb322f18997b7a57913cb4c7426a6404d58518d32079fffab0bd",
+    "check_topic": "Parent selection, evaluation allocation and retained agent programs",
+    "check_scope": "targeted assistant source check, not independent human verification or experimental replication",
+    "main_reference_number": 64,
+    "supplement_reference_number": 15
+  }
+]

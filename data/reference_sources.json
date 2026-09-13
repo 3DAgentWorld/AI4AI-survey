@@ -1,0 +1,1562 @@
+[
+  {
+    "key": "guo-etal-2026-counteracting",
+    "title": "Counteracting the Matthew Effect in Self-Improvement of LVLMs through Head-Tail Re-balancing",
+    "venue": "ACL",
+    "year": 2026,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "dong2025stp",
+    "title": "STP: Self-play LLM Theorem Provers with Iterative Conjecturing and Proving",
+    "venue": "ICML",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "tsoukalas2025learning",
+    "title": "Learning Interestingness in Automated Mathematical Theory Formation",
+    "venue": "NeurIPS",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "zhao2026achieving",
+    "title": "Achieving Expert-Level Agent from Foundation Model via Complexity Curriculum Reinforcement Learning with Synthetic Data",
+    "venue": "ICLR",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "zhou2023lima",
+    "title": "LIMA: Less Is More for Alignment",
+    "venue": "NeurIPS 2023 poster",
+    "year": "2023",
+    "official": true,
+    "source": "https://openreview.net/forum?id=KBMOKmX2he"
+  },
+  {
+    "key": "Shumailov2024",
+    "title": "AI models collapse when trained on recursively generated data",
+    "venue": "Nature",
+    "year": "2024",
+    "official": true,
+    "source": "https://citation-needed.springer.com/v2/references/10.1038/s41586-024-07566-y?format=bibtex&flavour=citation"
+  },
+  {
+    "key": "pmlr-v235-fu24i",
+    "title": "Towards Theoretical Understandings of Self-Consuming Generative Models",
+    "venue": "ICML",
+    "year": 2024,
+    "official": true,
+    "source": "pmlr"
+  },
+  {
+    "key": "gerstgrasser2024is",
+    "title": "Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data",
+    "venue": "ECCV 2024 Workshop The Dark Side of Generative AIs and Beyond",
+    "year": "2024",
+    "official": true,
+    "source": "supplemental_sources/accumulation.bib"
+  },
+  {
+    "key": "falahati2026curated",
+    "title": "Curated Synthetic Data Doesn’t Have to Collapse: A Theoretical Study of Generative Retraining with Pluralistic Preferences",
+    "venue": "ICML",
+    "year": 2026,
+    "official": true,
+    "source": "review40_official.bib"
+  },
+  {
+    "key": "Wei_2025_ICCV",
+    "title": "GTR: Guided Thought Reinforcement Prevents Thought Collapse in RL-based VLM Agent Training",
+    "venue": "ICCV",
+    "year": 2025,
+    "official": true,
+    "source": "cvf"
+  },
+  {
+    "key": "DBLP:conf/nips/ZhengC00WZL0LXZ23",
+    "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+    "venue": "NeurIPS 2023",
+    "year": "2023",
+    "official": true,
+    "source": "https://openreview.net/forum?id=RAW0XaE5nq"
+  },
+  {
+    "key": "shen-etal-2023-large",
+    "title": "Large Language Models are Not Yet Human-Level Evaluators for Abstractive Summarization",
+    "venue": "Findings of EMNLP",
+    "year": 2023,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "chen-etal-2024-humans",
+    "title": "Humans or LLMs as the Judge? A Study on Judgement Bias",
+    "venue": "EMNLP",
+    "year": 2024,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "hwang-etal-2025-fooling",
+    "title": "Fooling the LVLM Judges: Visual Biases in LVLM-Based Evaluation",
+    "venue": "EMNLP",
+    "year": 2025,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "pmlr-v202-gao23h",
+    "title": "Scaling Laws for Reward Model Overoptimization",
+    "venue": "ICML",
+    "year": 2023,
+    "official": true,
+    "source": "pmlr"
+  },
+  {
+    "key": "wen2025rethinking",
+    "title": "Rethinking Reward Model Evaluation: Are We Barking up the Wrong Tree?",
+    "venue": "ICLR",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "Liao_2025_CVPR",
+    "title": "Can Large Vision-Language Models Correct Semantic Grounding Errors By Themselves?",
+    "venue": "CVPR",
+    "year": 2025,
+    "official": true,
+    "source": "cvf"
+  },
+  {
+    "key": "zhou2024calibrated",
+    "title": "Calibrated Self-Rewarding Vision Language Models",
+    "venue": "NeurIPS",
+    "year": 2024,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "DBLP:conf/aaai/Zhao0XLLH24",
+    "title": "ExpeL: LLM Agents Are Experiential Learners",
+    "venue": "AAAI 2024",
+    "year": "2024",
+    "official": true,
+    "source": "https://openreview.net/forum?id=lErv7eTDvS"
+  },
+  {
+    "key": "shinn2023reflexion",
+    "title": "Reflexion: language agents with verbal reinforcement learning",
+    "venue": "NeurIPS",
+    "year": 2023,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "zhang2026darwin",
+    "title": "Darwin G\\\"odel Machine: Open-Ended Evolution of Self-Improving Agents",
+    "venue": "The Fourteenth International Conference on Learning Representations",
+    "year": "2026",
+    "official": true,
+    "source": "supplemental_sources/dgm.bib"
+  },
+  {
+    "key": "su-etal-2026-mistake",
+    "title": "Mistake Notebook Learning: Batch-Clustered Failures for Training-Free Agent Adaptation",
+    "venue": "Findings of ACL",
+    "year": 2026,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "liu-etal-2025-contextual",
+    "title": "Contextual Experience Replay for Self-Improvement of Language Agents",
+    "venue": "ACL",
+    "year": 2025,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "ge-etal-2025-samule",
+    "title": "SAMULE: Self-Learning Agents Enhanced by Multi-level Reflection",
+    "venue": "EMNLP",
+    "year": 2025,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "Zhang2026evolving",
+    "title": "Evolving Generalist Virtual Agents with Generative and Associative Memory",
+    "venue": "AAAI",
+    "year": 2026,
+    "official": true,
+    "source": "meta"
+  },
+  {
+    "key": "shen2026structurally",
+    "title": "Structurally Aligned Subtask-Level Memory for Software Engineering Agents",
+    "venue": "ICML",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "hu2026evaluating",
+    "title": "EVALUATING MEMORY IN LLM AGENTS VIA INCRE- MENTAL MULTI-TURN INTERACTIONS",
+    "venue": "ICLR",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "shao2026your",
+    "title": "Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents",
+    "venue": "ICLR",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "yin-etal-2026-reasoning",
+    "title": "The Reasoning Trap: How Enhancing LLM Reasoning Amplifies Tool Hallucination",
+    "venue": "ACL",
+    "year": 2026,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "zhang2025agent",
+    "title": "Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents",
+    "venue": "ICLR",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "agnihotri2026multiobjective",
+    "title": "Multi-Objective Preference Optimization: Improving Human Alignment of Generative Models",
+    "venue": "ICML",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "hu2025automated",
+    "title": "Automated Design of Agentic Systems",
+    "venue": "ICLR",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "zelikman2024selftaught",
+    "title": "Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation",
+    "venue": "COLM",
+    "year": 2024,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "xu2025metatextgrad",
+    "title": "metaTextGrad: Automatically optimizing language model optimizers",
+    "venue": "NeurIPS",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "el-etal-2025-inefficiencies",
+    "title": "Inefficiencies of Meta Agents for Agent Design",
+    "venue": "Findings of EMNLP",
+    "year": 2025,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "yang2025spend",
+    "title": "Spend Wisely: Maximizing Post-Training Gains in Iterative Synthetic Data Bootstrapping",
+    "venue": "NeurIPS",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "alazraki2026scaling",
+    "title": "Scaling Small Agents Through Strategy Auctions",
+    "venue": "ICML",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "yuksekgonul2026learning",
+    "title": "Learning to Discover at Test Time",
+    "venue": "ICML",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "cheng2025language",
+    "title": "Language Modeling by Language Models",
+    "venue": "NeurIPS",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "Gao_2024_CVPR",
+    "title": "CLOVA: A Closed-LOop Visual Assistant with Tool Usage and Update",
+    "venue": "CVPR",
+    "year": 2024,
+    "official": true,
+    "source": "cvf"
+  },
+  {
+    "key": "wu2024autogen",
+    "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversations",
+    "venue": "COLM",
+    "year": "2024",
+    "official": true,
+    "source": "https://openreview.net/forum?id=BAakY1hNKS"
+  },
+  {
+    "key": "hong2024metagpt",
+    "title": "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework",
+    "venue": "ICLR 2024 oral",
+    "year": "2024",
+    "official": true,
+    "source": "https://openreview.net/forum?id=VtmBAGCN7o"
+  },
+  {
+    "key": "DBLP:conf/nips/YangJWLYNP24",
+    "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+    "venue": "NeurIPS 2024",
+    "year": "2024",
+    "official": true,
+    "source": "https://openreview.net/forum?id=30hggYAY0Z"
+  },
+  {
+    "key": "zelikman2022star",
+    "title": "STaR: Bootstrapping Reasoning With Reasoning",
+    "venue": "NeurIPS",
+    "year": 2022,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "hazra2025revolve",
+    "title": "REvolve: Reward Evolution with Large Language Models using Human Feedback",
+    "venue": "ICLR",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "madaan2023selfrefine",
+    "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+    "venue": "NeurIPS",
+    "year": 2023,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "chen2024teaching",
+    "title": "Teaching Large Language Models to Self-Debug",
+    "venue": "ICLR",
+    "year": 2024,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "olausson2024is",
+    "title": "Is Self-Repair a Silver Bullet for Code Generation?",
+    "venue": "ICLR",
+    "year": 2024,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "tandon-etal-2022-learning",
+    "title": "Learning to repair: Repairing model output errors after deployment using a dynamic memory of feedback",
+    "venue": "Findings of NAACL",
+    "year": 2022,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "gao-etal-2024-self-evolving",
+    "title": "Self-Evolving GPT: A Lifelong Autonomous Experiential Learner",
+    "venue": "ACL",
+    "year": 2024,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "pmlr-v235-chen24j",
+    "title": "Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models",
+    "venue": "ICML",
+    "year": 2024,
+    "official": true,
+    "source": "https://proceedings.mlr.press/v235/chen24j.html"
+  },
+  {
+    "key": "zelikman2024quietstar",
+    "title": "Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking",
+    "venue": "COLM",
+    "year": "2024",
+    "official": true,
+    "source": "https://openreview.net/forum?id=oRXPiSOGH9"
+  },
+  {
+    "key": "qu2024recursive",
+    "title": "Recursive Introspection: Teaching Language Model Agents How to Self-Improve",
+    "venue": "NeurIPS",
+    "year": 2024,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "pourcel2025selfimproving",
+    "title": "Self-Improving Language Models for Evolutionary Program Synthesis: A Case Study on ARC-AGI",
+    "venue": "ICML",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "lin2026goedelproverv",
+    "title": "Goedel-Prover-V2: Scaling Formal Theorem Proving with Scaffolded Data Synthesis and Self-Correction",
+    "venue": "ICLR",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "surina2025algorithm",
+    "title": "Algorithm Discovery With LLMs: Evolutionary Search Meets Reinforcement Learning",
+    "venue": "COLM",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "kumarappan2025leanagent",
+    "title": "LeanAgent: Lifelong Learning for Formal Theorem Proving",
+    "venue": "ICLR",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "poesia2024learning",
+    "title": "Learning Formal Mathematics From Intrinsic Motivation",
+    "venue": "NeurIPS",
+    "year": 2024,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "zhao2025absolute",
+    "title": "Absolute Zero: Reinforced Self-play Reasoning with Zero Data",
+    "venue": "NeurIPS",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "he-etal-2025-openwebvoyager",
+    "title": "OpenWebVoyager: Building Multimodal Web Agents via Iterative Real-World Exploration, Feedback and Optimization",
+    "venue": "ACL",
+    "year": 2025,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "pan2026advevomarl",
+    "title": "AdvEvo-MARL: Shaping Internalized Safety through Adversarial Co-Evolution in Multi-Agent Reinforcement Learning",
+    "venue": "ICML",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "pmlr-v235-yuan24d",
+    "title": "Self-Rewarding Language Models",
+    "venue": "Proceedings of the 41st International Conference on Machine Learning",
+    "year": "2024",
+    "official": true,
+    "source": "supplemental_sources/self_rewarding.bib"
+  },
+  {
+    "key": "xie2025teaching",
+    "title": "Teaching Language Models to Critique via Reinforcement Learning",
+    "venue": "ICML",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "Huang2025efficient",
+    "title": "Efficient Language-instructed Skill Acquisition via Reward-Policy Co-Evolution",
+    "venue": "AAAI",
+    "year": 2025,
+    "official": true,
+    "source": "meta"
+  },
+  {
+    "key": "shao2026dr",
+    "title": "DR Tulu: Reinforcement Learning with Evolving Rubrics for Deep Research",
+    "venue": "ICML",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "chen2026rucl",
+    "title": "RuCL: Stratified Rubric-Based Curriculum Learning for Multimodal Large Language Model Reasoning",
+    "venue": "ICML",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "wan-etal-2026-inference",
+    "title": "Inference-Time Scaling of Verification: Self-Evolving Deep Research Agents via Test-Time Rubric-Guided Verification",
+    "venue": "Findings of ACL",
+    "year": 2026,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "pmlr-v235-fernando24a",
+    "title": "Promptbreeder: Self-Referential Self-Improvement via Prompt Evolution",
+    "venue": "Proceedings of the 41st International Conference on Machine Learning",
+    "year": "2024",
+    "official": true,
+    "source": "supplemental_sources/promptbreeder.bib"
+  },
+  {
+    "key": "cai2026from",
+    "title": "From Player to Master: Enhancing Test-Time Learning of LLM Agents via Reinforcement Learning over Memory",
+    "venue": "ICML",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "wang2026huxleygodel",
+    "title": "Huxley-Gödel Machine: Human-Level Coding Agent Development by an Approximation of the Optimal Self-Improving Machine",
+    "venue": "ICLR",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "pmlr-v235-huang24y",
+    "title": "MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation",
+    "venue": "ICML",
+    "year": 2024,
+    "official": true,
+    "source": "pmlr"
+  },
+  {
+    "key": "chan2025mlebench",
+    "title": "MLE-Bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+    "venue": "ICLR",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "ursekar2026vero",
+    "title": "VeRO: A Harness for Agents to Optimize Agents",
+    "venue": "ICML",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "ICLR2024_edac78c3",
+    "title": "SWE-bench: Can Language Models Resolve Real-world Github Issues?",
+    "venue": "ICLR",
+    "year": 2024,
+    "official": true,
+    "source": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/edac78c3e300629acfe6cbe9ca88fb84-Abstract-Conference.html"
+  },
+  {
+    "key": "tian-etal-2024-debugbench",
+    "title": "DebugBench: Evaluating Debugging Capability of Large Language Models",
+    "venue": "Findings of ACL",
+    "year": 2024,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "gautam2025refactorbench",
+    "title": "RefactorBench: Evaluating Stateful Reasoning in Language Agents Through Code",
+    "venue": "ICLR",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "zhou2026creditbudgeted",
+    "title": "Credit-Budgeted ICPC-Style Coding: When LLM Agents Must Pay for Every Decision",
+    "venue": "ICLR",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "shirali2023a",
+    "title": "A Theory of Dynamic Benchmarks",
+    "venue": "ICLR",
+    "year": 2023,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "jain2025livecodebench",
+    "title": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code",
+    "venue": "ICLR",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "safarzadeh-etal-2026-spence",
+    "title": "SPENCE: A Syntactic Probe for Detecting Contamination in NL2SQL Benchmarks",
+    "venue": "ACL",
+    "year": 2026,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "gupta2026position",
+    "title": "Position: ICML Should Treat Hosted LLM APIs as Versioned Dependencies and Require Drift-Audit Artifacts",
+    "venue": "ICML",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "wang-etal-2023-self-instruct",
+    "title": "Self-Instruct: Aligning Language Models with Self-Generated Instructions",
+    "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "year": "2023",
+    "official": true,
+    "source": "https://aclanthology.org/2023.acl-long.754.bib"
+  },
+  {
+    "key": "askari-etal-2025-solid",
+    "title": "SOLID: Self-seeding and Multi-intent Self-instructing LLMs for Generating Intent-aware Information-Seeking Dialogs",
+    "venue": "Findings of NAACL",
+    "year": 2025,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "mao-etal-2024-rag",
+    "title": "RAG-Studio: Towards In-Domain Adaptation of Retrieval Augmented Generation Through Self-Alignment",
+    "venue": "Findings of EMNLP",
+    "year": 2024,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "wu2022autoformalization",
+    "title": "Autoformalization with Large Language Models",
+    "venue": "NeurIPS",
+    "year": 2022,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "haluptzok2023language",
+    "title": "Language Models Can Teach Themselves to Program Better",
+    "venue": "ICLR",
+    "year": 2023,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "wu-2024-uicoder",
+    "title": "UICoder: Finetuning Large Language Models to Generate User Interface Code through Automated Feedback",
+    "venue": "NAACL",
+    "year": 2024,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "DBLP:conf/nips/SchickDDRLHZCS23",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "venue": "NeurIPS 2023",
+    "year": "2023",
+    "official": true,
+    "source": "https://openreview.net/forum?id=psqD4Ny7yi"
+  },
+  {
+    "key": "hsieh-etal-2023-distilling",
+    "title": "Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes",
+    "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+    "year": "2023",
+    "official": true,
+    "source": "https://aclanthology.org/2023.findings-acl.507.bib"
+  },
+  {
+    "key": "tong-etal-2024-llms",
+    "title": "Can LLMs Learn from Previous Mistakes? Investigating LLMs’ Errors to Boost for Reasoning",
+    "venue": "ACL",
+    "year": 2024,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "cho-etal-2025-self",
+    "title": "Self-Correcting Code Generation Using Small Language Models",
+    "venue": "Findings of EMNLP",
+    "year": 2025,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "Zhang2026ap2o",
+    "title": "AP2O-Coder: Adaptively Progressive Preference Optimization for Reducing Compilation and Runtime Errors in LLM-Generated Code",
+    "venue": "AAAI",
+    "year": 2026,
+    "official": true,
+    "source": "meta"
+  },
+  {
+    "key": "kung-etal-2023-active",
+    "title": "Active Instruction Tuning: Improving Cross-Task Generalization by Training on Prompt Sensitive Tasks",
+    "venue": "EMNLP",
+    "year": 2023,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "li-etal-2025-teaching",
+    "title": "Teaching According to Talents! Instruction Tuning LLMs with Competence-Aware Curriculum Learning",
+    "venue": "Findings of EMNLP",
+    "year": 2025,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "yang2025selfguided",
+    "title": "Self-Guided Hierarchical Exploration for Generalist Foundation Model Web Agents",
+    "venue": "NeurIPS",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "Yang_2024_CVPR",
+    "title": "Embodied Multi-Modal Agent trained by an LLM from a Parallel TextWorld",
+    "venue": "CVPR",
+    "year": 2024,
+    "official": true,
+    "source": "cvf"
+  },
+  {
+    "key": "NEURIPS2022_b1efde53",
+    "title": "Training language models to follow instructions with human feedback",
+    "venue": "Advances in Neural Information Processing Systems",
+    "year": "2022",
+    "official": true,
+    "source": "https://proceedings.neurips.cc/paper_files/paper/19175-/bibtex"
+  },
+  {
+    "key": "NEURIPS2023_a85b405e",
+    "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+    "venue": "Advances in Neural Information Processing Systems",
+    "year": "2023",
+    "official": true,
+    "source": "https://proceedings.neurips.cc/paper_files/paper/22372-/bibtex"
+  },
+  {
+    "key": "lee2024rlaif",
+    "title": "RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback",
+    "venue": "ICML 2024 Poster",
+    "year": "2024",
+    "official": true,
+    "source": "https://openreview.net/forum?id=uydQ2W41KO"
+  },
+  {
+    "key": "setlur2025rewarding",
+    "title": "Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning",
+    "venue": "ICLR",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "rajaee-etal-2025-local",
+    "title": "Local Look-Ahead Guidance via Verifier-in-the-Loop for Automated Theorem Proving",
+    "venue": "Findings of ACL",
+    "year": 2025,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "yang2025the",
+    "title": "The Lighthouse of Language: Enhancing LLM Agents via Critique-Guided Improvement",
+    "venue": "NeurIPS",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "li2026webdevjudge",
+    "title": "WebDevJudge: Evaluating (M)LLMs as Critiques for Web Development Quality",
+    "venue": "ICLR",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "deutsch-etal-2022-limitations",
+    "title": "On the Limitations of Reference-Free Evaluations of Generated Text",
+    "venue": "EMNLP",
+    "year": 2022,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "son2026judging",
+    "title": "Judging What We Cannot Solve: A Consequence-Based Approach for Oracle-Free Evaluation of Research-Level Math",
+    "venue": "ICML",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "Yuksekgonul2025",
+    "title": "Optimizing generative AI by backpropagating language model feedback",
+    "venue": "Nature",
+    "year": "2025",
+    "official": true,
+    "source": "https://citation-needed.springer.com/v2/references/10.1038/s41586-025-08661-4?format=bibtex&flavour=citation"
+  },
+  {
+    "key": "pryzant-etal-2023-automatic",
+    "title": "Automatic Prompt Optimization with ``Gradient Descent'' and Beam Search",
+    "venue": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    "year": "2023",
+    "official": true,
+    "source": "https://aclanthology.org/2023.emnlp-main.494.bib"
+  },
+  {
+    "key": "agrawal2026gepa",
+    "title": "GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning",
+    "venue": "ICLR 2026 Oral",
+    "year": "2026",
+    "official": true,
+    "source": "https://openreview.net/forum?id=RQm2KQTM5r"
+  },
+  {
+    "key": "zhang2025aflow",
+    "title": "AFlow: Automating Agentic Workflow Generation",
+    "venue": "ICLR 2025 Oral",
+    "year": "2025",
+    "official": true,
+    "source": "https://openreview.net/forum?id=z5uVAKwmjf"
+  },
+  {
+    "key": "yuan-etal-2025-dolphin",
+    "title": "Dolphin: Moving Towards Closed-loop Auto-research through Thinking, Practice, and Feedback",
+    "venue": "ACL",
+    "year": 2025,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "turcan2026tusoai",
+    "title": "TusoAI: Agentic Optimization for Scientific Methods",
+    "venue": "ICLR",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "Yang_2025_CVPR",
+    "title": "NADER: Neural Architecture Design via Multi-Agent Collaboration",
+    "venue": "CVPR",
+    "year": 2025,
+    "official": true,
+    "source": "cvf"
+  },
+  {
+    "key": "ji2025rznas",
+    "title": "RZ-NAS: Enhancing LLM-guided Neural Architecture Search via Reflective Zero-Cost Strategy",
+    "venue": "ICML",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "pmlr-v235-zeng24b",
+    "title": "tnGPS: Discovering Unknown Tensor Network Structure Search Algorithms via Large Language Models (LLMs)",
+    "venue": "ICML",
+    "year": 2024,
+    "official": true,
+    "source": "pmlr"
+  },
+  {
+    "key": "aglietti2025funbo",
+    "title": "FunBO: Discovering Acquisition Functions for Bayesian Optimization with FunSearch",
+    "venue": "ICML",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "tao_survey2024",
+    "title": "A Survey on Self-Evolution of Large Language Models",
+    "venue": "arXiv preprint",
+    "year": "2024",
+    "official": false,
+    "source": "https://arxiv.org/abs/2404.14387"
+  },
+  {
+    "key": "gao2026a",
+    "title": "A Survey of Self-Evolving Agents: What, When, How, and Where to Evolve on the Path to Artificial Super Intelligence",
+    "venue": "Transactions on Machine Learning Research",
+    "year": "2026",
+    "official": true,
+    "source": "supplemental_sources/gao_survey.bib"
+  },
+  {
+    "key": "fang_survey2025",
+    "title": "A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems",
+    "venue": "arXiv preprint",
+    "year": "2025",
+    "official": false,
+    "source": "https://arxiv.org/abs/2508.07407"
+  },
+  {
+    "key": "chen_survey2026",
+    "title": "Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops",
+    "venue": "arXiv preprint",
+    "year": "2026",
+    "official": false,
+    "source": "https://arxiv.org/abs/2607.07663"
+  },
+  {
+    "key": "wang2026diving",
+    "title": "Diving into Reliable Self-Evolving Agents: A Survey",
+    "venue": "OpenReview Archive preprint",
+    "year": 2026,
+    "official": false,
+    "source": "https://openreview.net/forum?id=CGO1hDTHNe"
+  },
+  {
+    "key": "wu2026ai4ai",
+    "title": "AI4AI Survey: From Long-Horizon Agents to Recursive Self-Improvement---Definitions, Reliable Horizons, and Open Problems",
+    "venue": "Preprints.org preprint",
+    "year": 2026,
+    "official": false,
+    "source": "https://www.preprints.org/manuscript/202608.2108"
+  },
+  {
+    "key": "lee2025selfimproving",
+    "title": "Self-Improving Transformers Overcome Easy-to-Hard and Length Generalization Challenges",
+    "venue": "ICML",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "kamoi2024evaluating",
+    "title": "Evaluating LLMs at Detecting Errors in LLM Responses",
+    "venue": "COLM",
+    "year": 2024,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "chiang-lee-2023-closer",
+    "title": "A Closer Look into Using Large Language Models for Automatic Evaluation",
+    "venue": "Findings of EMNLP",
+    "year": 2023,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "hsu-etal-2023-gpt",
+    "title": "GPT-4 as an Effective Zero-Shot Evaluator for Scientific Figure Captions",
+    "venue": "Findings of EMNLP",
+    "year": 2023,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "chen2024are",
+    "title": "Are We on the Right Way for Evaluating Large Vision-Language Models?",
+    "venue": "NeurIPS",
+    "year": 2024,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "huang2025is",
+    "title": "Is Best-of-N the Best of Them? Coverage, Scaling, and Optimality in Inference-Time Alignment",
+    "venue": "ICML",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "farquhar2025mona",
+    "title": "MONA: Myopic Optimization with Non-myopic Approval Can Mitigate Multi-step Reward Hacking",
+    "venue": "ICML",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "zhou2026alignment",
+    "title": "Alignment Risks from Capability-Seeking RL Training",
+    "venue": "ICML",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "yu2025selfverifying",
+    "title": "Self-Verifying Reflection Helps Transformers with CoT Reasoning",
+    "venue": "NeurIPS",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "wang2025beyond",
+    "title": "Beyond Accuracy: Dissecting Mathematical Reasoning for LLMs Under Reinforcement Learning",
+    "venue": "NeurIPS",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "cho2026forget",
+    "title": "Forget Forgetting: Continual Learning in a World of Abundant Memory",
+    "venue": "ICLR",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "dorovatas2026position",
+    "title": "Position: Modular Memory is the Key to Continual Learning Agents",
+    "venue": "ICML",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "tang2024code",
+    "title": "Code Repair with LLMs gives an Exploration-Exploitation Tradeoff",
+    "venue": "NeurIPS",
+    "year": 2024,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "wang2026depth",
+    "title": "Depth over Fidelity in Fixed-Budget Noisy Evolution Strategies",
+    "venue": "ICML",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "xu2024wizardlm",
+    "title": "WizardLM: Empowering Large Pre-Trained Language Models to Follow Complex Instructions",
+    "venue": "ICLR 2024 poster",
+    "year": "2024",
+    "official": true,
+    "source": "https://openreview.net/forum?id=CfXh93NDgH"
+  },
+  {
+    "key": "DBLP:conf/nips/SunSZZCCYG23",
+    "title": "Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision",
+    "venue": "NeurIPS 2023",
+    "year": "2023",
+    "official": true,
+    "source": "https://openreview.net/forum?id=zIC9C8F8W7"
+  },
+  {
+    "key": "luo-etal-2024-amr",
+    "title": "AMR-Evol: Adaptive Modular Response Evolution Elicits Better Knowledge Distillation for Large Language Models in Code Generation",
+    "venue": "EMNLP",
+    "year": 2024,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "Yan20253cmath",
+    "title": "S^3cMath: Spontaneous Step-Level Self-Correction Makes Large Language Models Better Mathematical Reasoners",
+    "venue": "AAAI",
+    "year": 2025,
+    "official": true,
+    "source": "meta"
+  },
+  {
+    "key": "pattnaik-etal-2024-enhancing",
+    "title": "Enhancing Alignment using Curriculum Learning &amp; Ranked Preferences",
+    "venue": "Findings of EMNLP",
+    "year": 2024,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "zhan2026exgrpo",
+    "title": "ExGRPO: Learning to Reason from Prior Successes",
+    "venue": "ICLR",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "yan-etal-2025-towards",
+    "title": "Towards Efficient CoT Distillation: Self-Guided Rationale Selector for Better Performance with Fewer Rationales",
+    "venue": "Findings of EMNLP",
+    "year": 2025,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "Qiu_2025_CVPR",
+    "title": "STEP: Enhancing Video-LLMs&#039; Compositional Reasoning by Spatio-Temporal Graph-guided Self-Training",
+    "venue": "CVPR",
+    "year": 2025,
+    "official": true,
+    "source": "cvf"
+  },
+  {
+    "key": "wang-etal-2026-gui0",
+    "title": "GUI0: Self-Evolving Foundational GUI Agents in Super App Ecosystems",
+    "venue": "ACL",
+    "year": 2026,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "kim-etal-2024-auto",
+    "title": "Auto-Intent: Automated Intent Discovery and Self-Exploration for Large Language Model Web Agents",
+    "venue": "Findings of EMNLP",
+    "year": 2024,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "zhang-etal-2025-evolvesearch",
+    "title": "EvolveSearch: An Iterative Self-Evolving Search Agent",
+    "venue": "EMNLP",
+    "year": 2025,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "liu2026spiral",
+    "title": "SPIRAL: Self-Play on Zero-Sum Games Incentivizes Reasoning via Multi-Agent Multi-Turn Reinforcement Learning",
+    "venue": "ICLR",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "chen2026learn",
+    "title": "Learn from Your Mistakes: Tree-like Self-Play for Secure Code LLMs",
+    "venue": "ICML",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "zhang-etal-2026-agentv",
+    "title": "AgentV-RL: Scaling Reward Modeling with Agentic Verifier",
+    "venue": "Findings of ACL",
+    "year": 2026,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "chan-etal-2025-boosting",
+    "title": "Boosting Policy and Process Reward Models with Monte Carlo Tree Search in Open-Domain QA",
+    "venue": "Findings of ACL",
+    "year": 2025,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "hu-etal-2024-serts",
+    "title": "SeRTS: Self-Rewarding Tree Search for Biomedical Retrieval-Augmented Generation",
+    "venue": "Findings of EMNLP",
+    "year": 2024,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "asai2024selfrag",
+    "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+    "venue": "ICLR 2024 oral",
+    "year": "2024",
+    "official": true,
+    "source": "https://openreview.net/forum?id=hSyW5go0v8"
+  },
+  {
+    "key": "ziakas2026vita",
+    "title": "VITA: Zero-Shot Value Functions via Test-Time Adaptation of Vision–Language Models",
+    "venue": "ICLR",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "Han2026uncertainty",
+    "title": "Uncertainty-Based Methods for Automated Process Reward Data Construction and Output Aggregation in Mathematical Reasoning",
+    "venue": "AAAI",
+    "year": 2026,
+    "official": true,
+    "source": "meta"
+  },
+  {
+    "key": "ma2024eureka",
+    "title": "Eureka: Human-Level Reward Design via Coding Large Language Models",
+    "venue": "ICLR 2024 poster",
+    "year": "2024",
+    "official": true,
+    "source": "https://openreview.net/forum?id=IEduRUO55F"
+  },
+  {
+    "key": "DBLP:conf/iclr/ZhouMHPPCB23",
+    "title": "Large Language Models are Human-Level Prompt Engineers",
+    "venue": "ICLR 2023",
+    "year": "2023",
+    "official": true,
+    "source": "https://openreview.net/forum?id=YVozFftExy"
+  },
+  {
+    "key": "yang2024large",
+    "title": "Large Language Models as Optimizers",
+    "venue": "ICLR 2024 poster",
+    "year": "2024",
+    "official": true,
+    "source": "https://openreview.net/forum?id=Bb4VGOWELI"
+  },
+  {
+    "key": "guo2024connecting",
+    "title": "Connecting Large Language Models with Evolutionary Algorithms Yields Powerful Prompt Optimizers",
+    "venue": "ICLR 2024 poster",
+    "year": 2024,
+    "official": true,
+    "source": "https://openreview.net/forum?id=ZG3RaNIsO8"
+  },
+  {
+    "key": "wan-etal-2023-universal",
+    "title": "Universal Self-Adaptive Prompting",
+    "venue": "EMNLP",
+    "year": 2023,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "li-etal-2026-learning",
+    "title": "Learning from Contrastive Prompts: An Automated Prompt Optimization Framework",
+    "venue": "Findings of ACL",
+    "year": 2026,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "singla-etal-2024-dynamic",
+    "title": "Dynamic Rewarding with Prompt Optimization Enables Tuning-free Self-Alignment of Language Models",
+    "venue": "EMNLP",
+    "year": 2024,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "zhao2025pareto",
+    "title": "Pareto Prompt Optimization",
+    "venue": "ICLR",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "khattab2024dspy",
+    "title": "DSPy: Compiling Declarative Language Model Calls into State-of-the-Art Pipelines",
+    "venue": "ICLR 2024 spotlight",
+    "year": 2024,
+    "official": true,
+    "source": "https://openreview.net/forum?id=sY5N0zY5Od"
+  },
+  {
+    "key": "gao2024strategyllm",
+    "title": "StrategyLLM: Large Language Models as Strategy Generators, Executors, Optimizers, and Evaluators for Problem Solving",
+    "venue": "NeurIPS",
+    "year": 2024,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "liu-etal-2026-adaptive",
+    "title": "Adaptive Prompt Structure Factorization: A Framework for Self-Discovering and Optimizing Compositional Prompt Programs",
+    "venue": "ACL",
+    "year": 2026,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "Yang2026raas",
+    "title": "RAAS: LLM Agentic System Architecture Search with GRPO",
+    "venue": "CVPR",
+    "year": 2026,
+    "official": true,
+    "source": "meta"
+  },
+  {
+    "key": "wei2026evomas",
+    "title": "EvoMAS: Heuristics in the Loop—Evolving Smarter Agentic Workflows",
+    "venue": "ICML",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "zheng-etal-2026-meddcr",
+    "title": "MedDCR: Learning to Design Agentic Workflows for Medical Coding",
+    "venue": "Findings of ACL",
+    "year": 2026,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "Ding_2025",
+    "title": "EvoVLMA: Evolutionary Vision-Language Model Adaptation",
+    "venue": "ACMMM",
+    "year": 2025,
+    "official": true,
+    "source": "doi"
+  },
+  {
+    "key": "Liu_2024_CVPR",
+    "title": "Language Models as Black-Box Optimizers for Vision-Language Models",
+    "venue": "CVPR",
+    "year": 2024,
+    "official": true,
+    "source": "cvf"
+  },
+  {
+    "key": "lin2026can",
+    "title": "Can Language Models Discover Scaling Laws?",
+    "venue": "ICLR",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "zhang2025adaptive",
+    "title": "Adaptive Self-improvement LLM Agentic System for ML Library Development",
+    "venue": "ICML",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "zhao2024empowering",
+    "title": "Empowering Large Language Model Agents through Action Learning",
+    "venue": "COLM",
+    "year": 2024,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "wu2026transductive",
+    "title": "Transductive Visual Programming: Evolving Tool Libraries from Experience for Spatial Reasoning",
+    "venue": "ICLR",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "Huang2026meta",
+    "title": "META: Meta Evolution of Tool Trajectory Adaptation for Long-Video Understanding",
+    "venue": "CVPR",
+    "year": 2026,
+    "official": true,
+    "source": "meta"
+  },
+  {
+    "key": "ai-etal-2026-tooldna",
+    "title": "ToolDNA: Autonomous Evolution of Tool Metadata for Robust Dialogue Agents",
+    "venue": "Findings of ACL",
+    "year": 2026,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "wang2024voyager",
+    "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+    "venue": "Accepted by TMLR",
+    "year": "2024",
+    "official": true,
+    "source": "https://openreview.net/forum?id=ehfRiF0R3a"
+  },
+  {
+    "key": "zhang-etal-2024-agent",
+    "title": "Agent-Pro: Learning to Evolve via Policy-Level Reflection and Optimization",
+    "venue": "ACL",
+    "year": 2024,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "wang2025vlrethinker",
+    "title": "VL-Rethinker: Incentivizing Self-Reflection of Vision-Language Models with Reinforcement Learning",
+    "venue": "NeurIPS",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "Liu2026failure",
+    "title": "From Failure to Feedback: Group Revision Unlocks Hard Cases in Object-Level Grounding",
+    "venue": "CVPR",
+    "year": 2026,
+    "official": true,
+    "source": "meta"
+  },
+  {
+    "key": "huang-etal-2024-queryagent",
+    "title": "QueryAgent: A Reliable and Efficient Reasoning Framework with Environmental Feedback based Self-Correction",
+    "venue": "ACL",
+    "year": 2024,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "li2025testtime",
+    "title": "Test-Time Preference Optimization: On-the-Fly Alignment via Iterative Textual Feedback",
+    "venue": "ICML",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "guo2025seagent",
+    "title": "SE-Agent: Self-Evolution Trajectory Optimization in Multi-Step Reasoning with LLM-Based Agents",
+    "venue": "NeurIPS",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "wu-etal-2024-large",
+    "title": "Large Language Models Can Self-Correct with Key Condition Verification",
+    "venue": "EMNLP",
+    "year": 2024,
+    "official": true,
+    "source": "acl_anthology"
+  },
+  {
+    "key": "du2025afterburner",
+    "title": "Afterburner: Reinforcement Learning Facilitates Self-Improving Code Efficiency Optimization",
+    "venue": "NeurIPS",
+    "year": 2025,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "dai2026group",
+    "title": "Group Verification-based Policy Optimization for Interactive Coding Agents",
+    "venue": "ICLR",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "brooks2023large",
+    "title": "Large Language Models can Implement Policy Iteration",
+    "venue": "NeurIPS",
+    "year": 2023,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "park2026posttraining",
+    "title": "Post-Training LLMs as Better Decision-Making Agents: A Regret-Minimization Approach",
+    "venue": "ICML",
+    "year": 2026,
+    "official": true,
+    "source": "openreview"
+  },
+  {
+    "key": "chai2026evolvenav",
+    "title": "EvolveNav: Proactive Preflection and Self-Evolving Memory for Zero-Shot Object Goal Navigation",
+    "venue": "arXiv",
+    "year": 2026,
+    "official": true,
+    "source": "https://arxiv.org/bibtex/2606.18235"
+  },
+  {
+    "key": "zhang2026genesis",
+    "title": "Genesis: Evolving Attack Strategies for LLM Web Agent Red-Teaming",
+    "venue": "arXiv",
+    "year": 2026,
+    "official": true,
+    "source": "https://arxiv.org/bibtex/2510.18314"
+  },
+  {
+    "key": "zhang2025persona",
+    "title": "Enhancing Jailbreak Attacks on LLMs via Persona Prompts",
+    "venue": "arXiv",
+    "year": 2026,
+    "official": true,
+    "source": "https://arxiv.org/bibtex/2507.22171"
+  },
+  {
+    "key": "lan2024llm",
+    "title": "LLM-Based Agent Society Investigation: Collaboration and Confrontation in Avalon Gameplay",
+    "venue": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "year": 2024,
+    "official": true,
+    "source": "https://aclanthology.org/2024.emnlp-main.7.bib"
+  },
+  {
+    "key": "zhang2025multimind",
+    "title": "MultiMind: Enhancing Werewolf Agents with Multimodal Reasoning and Theory of Mind",
+    "venue": "Proceedings of the 33rd ACM International Conference on Multimedia",
+    "year": 2025,
+    "official": true,
+    "source": "https://api.crossref.org/works/10.1145/3746027.3755752/transform/application/x-bibtex"
+  },
+  {
+    "key": "zhang2025dvm",
+    "title": "DVM: Towards Controllable LLM Agents in Social Deduction Games",
+    "venue": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "year": 2025,
+    "official": true,
+    "source": "https://api.crossref.org/works/10.1109/ICASSP49660.2025.10888525/transform/application/x-bibtex"
+  },
+  {
+    "key": "zhang2026selfharness",
+    "title": "Self-Harness: Harnesses That Improve Themselves",
+    "venue": "arXiv",
+    "year": 2026,
+    "official": true,
+    "source": "https://arxiv.org/bibtex/2606.09498"
+  }
+]

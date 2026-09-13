@@ -135,6 +135,18 @@ a:hover { text-decoration: underline; }
 .site-nav .nav-links a:hover { color: var(--ink); text-decoration: none; }
 .site-nav .nav-links a.active { color: var(--accent); border-bottom-color: var(--accent-line); }
 
+@media (max-width: 700px) {
+  .site-nav { gap: 0.5rem; padding: 0.6rem 0.75rem; }
+  .site-nav .nav-links { gap: 0.65rem; }
+  .site-nav .nav-links a { font-size: 0.72rem; }
+  .site-nav .nav-links a[href*="github"] { display: none; }
+}
+
+@media (max-width: 480px) {
+  .site-nav .brand { font-size: 0; }
+  .site-nav .brand-mark { margin-right: 0; }
+}
+
 .theme-toggle {
   border: 1px solid var(--line-strong);
   background: var(--surface);
@@ -258,6 +270,47 @@ a:hover { text-decoration: underline; }
   border: 1px solid rgba(255, 255, 255, 0.14);
   background: rgba(255, 255, 255, 0.04);
   letter-spacing: 0.03em;
+}
+
+.paper-search-launch {
+  padding: 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  font-family: var(--sans);
+}
+.paper-search-launch > label {
+  display: block;
+  margin-bottom: 0.55rem;
+  color: var(--ink-soft);
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+.paper-search-launch > div { display: flex; gap: 0.6rem; }
+.paper-search-launch input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.78rem 0.9rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 9px;
+  background: var(--bg);
+  color: var(--ink);
+  font: 0.86rem var(--sans);
+}
+.paper-search-launch input:focus { outline: 2px solid var(--accent-line); outline-offset: 1px; }
+.paper-search-launch button {
+  padding: 0.72rem 1rem;
+  border: 0;
+  border-radius: 9px;
+  background: var(--accent);
+  color: #fff;
+  font: 600 0.82rem var(--sans);
+  cursor: pointer;
+}
+.paper-search-launch p { margin: 0.7rem 0 0; color: var(--muted); font-size: 0.72rem; }
+@media (max-width: 560px) {
+  .paper-search-launch > div { align-items: stretch; flex-direction: column; }
 }
 
 /* the self-referential loop motif */

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paper Browser · AI4AI Survey</title>
+<meta name="description" content="Search and filter the 195-paper literature inventory released with A Survey on AI for AI.">
+<meta property="og:title" content="AI4AI Survey · Paper Browser">
+<meta property="og:description" content="Browse 195 papers by year, venue, survey role, function, corpus, and code availability.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://3dagentworld.github.io/AI4AI-survey/papers.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%234c63e8'/%3E%3Cstop offset='1' stop-color='%233ba7a0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='27' font-style='italic' fill='white' text-anchor='middle'%3Eai%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+<link rel="stylesheet" href="css/papers.css">
+<script>(function(){try{var t=localStorage.getItem('ai4ai-theme');if(t==='dark'||t==='light'){document.documentElement.setAttribute('data-theme',t);}else if(window.matchMedia('(prefers-color-scheme: dark)').matches){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}})();</script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <a class="brand" href="index.html"><span class="brand-mark">ai</span>AI4AI Survey</a>
+  <div class="nav-links">
+    <a href="index.html">Overview</a>
+    <a href="paper.html">Read the Paper</a>
+    <a href="papers.html" class="active">Paper Browser</a>
+    <a href="https://github.com/3DAgentWorld/AI4AI-survey" rel="noopener">GitHub</a>
+    <button class="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle theme">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    </button>
+  </div>
+</nav>
+
+<header class="browser-hero">
+  <div class="browser-hero-inner">
+    <p class="browser-kicker">Open literature release</p>
+    <h1>Paper Browser</h1>
+    <p>Search the complete AI4AI literature inventory by title, author, venue, taxonomy function, corpus, and code availability.</p>
+    <div class="browser-stats" aria-label="Dataset summary">
+      <div><strong id="statPapers">195</strong><span>Papers</span></div>
+      <div><strong id="statMain">157</strong><span>Main references</span></div>
+      <div><strong id="statEvidence">147</strong><span>Full-text matches</span></div>
+      <div><strong id="statCode">108</strong><span>Papers with code</span></div>
+    </div>
+  </div>
+</header>
+
+<main class="browser-main">
+  <section class="browser-panel" aria-labelledby="browser-heading">
+    <div class="browser-heading-row">
+      <div>
+        <h2 id="browser-heading">Surveyed literature</h2>
+        <p>Filters can be combined. Search state is preserved in the page URL.</p>
+      </div>
+      <a class="data-link" href="https://github.com/3DAgentWorld/AI4AI-survey/blob/main/PAPERS.md" rel="noopener">Markdown list <span aria-hidden="true">↗</span></a>
+    </div>
+
+    <div class="browser-controls">
+      <label class="search-control" for="paperSearch">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <span class="sr-only">Search papers</span>
+        <input id="paperSearch" type="search" placeholder="Search title, author, venue, citation key…" autocomplete="off">
+        <kbd>/</kbd>
+      </label>
+      <div class="filter-grid">
+        <label><span>Year</span><select id="filterYear"><option value="">All years</option></select></label>
+        <label><span>Venue</span><select id="filterVenue"><option value="">All venues</option></select></label>
+        <label><span>Survey role</span><select id="filterRole"><option value="">All roles</option></select></label>
+        <label><span>Function</span><select id="filterFunction"><option value="">All functions</option></select></label>
+        <label><span>Corpus</span><select id="filterCorpus"><option value="">Main + supplement</option><option value="main">Main text</option><option value="supplement">Supplement only</option><option value="both">Cited in both</option></select></label>
+        <label><span>Sort by</span><select id="sortPapers"><option value="year-desc">Newest first</option><option value="year-asc">Oldest first</option><option value="title-asc">Title A–Z</option><option value="venue-asc">Venue A–Z</option></select></label>
+      </div>
+      <div class="filter-actions">
+        <label class="code-toggle"><input id="filterCode" type="checkbox"><span>Only papers with code</span></label>
+        <div>
+          <button id="resetFilters" class="browser-button" type="button">Reset</button>
+          <button id="exportCsv" class="browser-button browser-button-accent" type="button">Export CSV</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="result-bar">
+      <strong id="resultCount" aria-live="polite">Loading papers…</strong>
+      <span>Click a title to open its publication page.</span>
+    </div>
+
+    <div class="paper-table-wrap">
+      <table class="paper-browser-table">
+        <thead>
+          <tr>
+            <th>Paper</th>
+            <th>Venue</th>
+            <th>Year</th>
+            <th>Survey placement</th>
+            <th>Corpus</th>
+            <th>Code</th>
+          </tr>
+        </thead>
+        <tbody id="paperRows"></tbody>
+      </table>
+      <div id="emptyState" class="empty-state" hidden>
+        <strong>No papers match these filters.</strong>
+        <span>Try a broader search or reset the filters.</span>
+      </div>
+    </div>
+    <nav id="pagination" class="browser-pagination" aria-label="Paper list pages"></nav>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="foot-mark"><span class="brand-mark">ai</span>A Survey on AI for AI</div>
+  <div>&copy; 2026 Ye, Zhang, Wang &amp; Miao &middot; <a href="https://github.com/3DAgentWorld/AI4AI-survey/blob/main/data/README.md" rel="noopener">Data documentation</a> &middot; <a href="https://github.com/3DAgentWorld/AI4AI-survey" rel="noopener">Source repository</a></div>
+</footer>
+
+<script src="data/papers.js"></script>
+<script src="js/site.js"></script>
+<script src="js/papers.js"></script>
+</body>
+</html>
