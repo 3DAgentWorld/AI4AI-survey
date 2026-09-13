@@ -60,7 +60,6 @@
 
   document.getElementById("statPapers").textContent = stats.total_papers || papers.length;
   document.getElementById("statMain").textContent = stats.main_text_papers || "—";
-  document.getElementById("statEvidence").textContent = stats.papers_with_fulltext_evidence || "—";
   document.getElementById("statCode").textContent = stats.papers_with_code || "—";
 
   papers.forEach(function (paper) {

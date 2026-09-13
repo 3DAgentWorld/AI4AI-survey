@@ -37,7 +37,7 @@
 
 .browser-stats {
   display: grid;
-  grid-template-columns: repeat(4, minmax(120px, 1fr));
+  grid-template-columns: repeat(3, minmax(120px, 1fr));
   max-width: 760px;
   gap: 0.75rem;
   margin-top: 2.1rem;

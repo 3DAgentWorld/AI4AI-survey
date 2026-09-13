@@ -1,6 +1,6 @@
 # Surveyed Papers
 
-The complete literature inventory released with the AI4AI survey (195 papers).
+The complete list of 195 papers reviewed or cited in the AI4AI survey.
 Titles link to publication pages; the Code column links to available repositories (108 papers).
 
 | # | Title | Venue | Year | Survey role | Corpus | Code |
