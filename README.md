@@ -5,9 +5,8 @@
 [![Papers](https://img.shields.io/badge/Papers-195-green)](PAPERS.md)
 [![Code](https://img.shields.io/badge/Papers_with_code-108-orange)](https://3dagentworld.github.io/AI4AI-survey/papers.html?code=1)
 
-Project page, full HTML edition, and interactive paper browser for
-**“A Survey on AI for AI: When the Improver Becomes the Improvee”** by Deheng Ye,
-Zheng Zhang, Hao Wang, and Chunyan Miao (Ye and Zhang contributed equally).
+Companion website and searchable paper list for
+**“A Survey on AI for AI: When the Improver Becomes the Improvee”**.
 
 - [Project page](https://3dagentworld.github.io/AI4AI-survey/)
 - [Full paper](https://3dagentworld.github.io/AI4AI-survey/paper.html)

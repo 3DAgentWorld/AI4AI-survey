@@ -119,7 +119,6 @@
 .paper-browser-table th:nth-child(6) { width: 9%; }
 .paper-title { display: inline; color: var(--ink); font-family: var(--serif); font-size: 0.94rem; font-weight: 700; line-height: 1.35; }
 .paper-authors { display: block; margin-top: 0.25rem; color: var(--muted); font-size: 0.68rem; }
-.paper-key { display: inline-block; margin-top: 0.3rem; color: var(--muted); font: 0.61rem var(--mono); }
 .placement-role { display: block; margin-bottom: 0.28rem; color: var(--ink); font-weight: 600; }
 .paper-tag { display: inline-block; margin: 0.12rem 0.2rem 0.08rem 0; padding: 0.12rem 0.38rem; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: 0.62rem; line-height: 1.35; }
 .corpus-label { white-space: nowrap; }

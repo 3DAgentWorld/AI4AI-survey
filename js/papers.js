@@ -152,7 +152,7 @@
       return '<a class="repo-link" href="' + escapeHtml(url) + '" target="_blank" rel="noopener">' + label + " ↗</a>";
     }).join("") || '<span class="no-code" aria-label="No code link">—</span>';
     return "<tr>" +
-      "<td>" + titleHtml + '<span class="paper-authors">' + escapeHtml(authorLabel(paper.authors)) + '</span><span class="paper-key">' + escapeHtml(paper.citation_key) + "</span></td>" +
+      "<td>" + titleHtml + '<span class="paper-authors">' + escapeHtml(authorLabel(paper.authors)) + "</span></td>" +
       "<td>" + escapeHtml(paper.venue) + "</td>" +
       "<td>" + escapeHtml(paper.year) + "</td>" +
       '<td><span class="placement-role">' + escapeHtml(paper.survey_role) + "</span>" + functions + "</td>" +
